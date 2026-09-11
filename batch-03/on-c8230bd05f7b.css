@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../batch-03/on-d05b5d450e46.css") format('truetype');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../batch-03/on-9de2f083fd4e.css") format('truetype');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../batch-03/on-8026ad087f1f.css") format('truetype');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../batch-03/on-6c6c5eeac0de.css") format('truetype');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../batch-03/on-a368a1f638cd.css") format('truetype');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../batch-03/on-aeec2dda8334.css") format('truetype');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../batch-03/on-871bdd5a41a1.css") format('truetype');
+}
+@font-face {
+  font-family: 'Google Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../batch-03/on-8a807c67879d.css") format('truetype');
+}
