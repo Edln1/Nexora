@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.example
+!.env.stripe.example
+data/
+node_modules/
