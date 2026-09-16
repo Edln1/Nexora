@@ -1,0 +1,47 @@
+/* Nexora — shared white storefront palette. */
+:root{--bg:#fff;--panel:#f5f5f5;--line:#dedede;--text:#191919;--muted:#666;--accent:#222;--ink:#191919;--soft:#666;--foreground:#191919;--background:#fff;color-scheme:light}
+html body,body.nx-store,body.wr-page,body.tj-page{background:#fff;color:#191919}body p{color:#666}a:hover{color:#444}:focus-visible{outline-color:#333}
+body .on-header,body .on-header-inner,body .on-menu-surface,body .on-mini,body .site-header,body .wr-header{background:#fff;color:#191919;border-color:#e1e1e1}body .on-menu-surface{box-shadow:0 20px 35px #0000000c}body .on-header a,body .on-header button,body .on-header summary{color:#222}body .on-header p,body .on-mini p{color:#666}body .on-mega-card-image{background:#f4f4f4}body .on-mega-tabs button.active,body .on-mega-tabs button[aria-selected=true]{background:#eee;color:#111}body .on-menu-backdrop{background:#0003}body .nx-hover-fill{background:#191919!important;color:#fff!important}body .nx-hover-fill *,body .nx-hover-fill a{color:#fff!important}
+body .nx-catalog,body .robot-wrap,body .robot-life,body .nh-home,body .tj-page,body .site-footer,body .nx-footer{background:#fff;color:#191919}body .site-footer,body .nx-footer{border-color:#ddd}body .site-footer p,body .site-footer a,body .footer-bottom,body .nx-footer p{color:#666}body .nx-wordmark,body .wordmark{color:#191919}body .nx-benefits{background:#fafafa;color:#333;border-color:#ddd}body .nx-benefits>div{border-color:#ddd}body .nx-story-grid article{background:#f6f6f6;border-color:#e1e1e1;color:#222}body .nx-story-grid p{color:#666}body .nx-story-icon{background:#fff;border-color:#ccc;color:#444}
+body .button,body .nx-button,body .ag .ag-btn{background:#191919;color:#fff;border-color:#191919}body .button:hover,body .nx-button:hover,body .ag .ag-btn:hover{background:#373737;color:#fff}body .ag .ag-btn.secondary{background:#fff;color:#222;border-color:#bbb}body .ag .ag-btn.secondary:hover{background:#eee;color:#111}body .ag .ag-tabs button[aria-selected=true]{background:#191919;color:white}body .ag .ag-expression{background:#111}body .ag .ag-expression i{background:white}body .ag .ag-local{background:#fffffff2}body .ag .ag-order{background:#191919;color:white}body .ag .ag-swatch.black{background:#111}body .ag .ag-swatch.white{background:#fff}
+/* Preserve legibility where the original layout places copy over photography. */
+body .nx-product-copy,body .nx-product-copy a,body .nx-product-copy h3,body .nx-product-copy p,body .nx-product-copy span,body .nx-product-copy small,body .nx-category,body .nx-category h2,body .nx-category p,body .nx-mission,body .nx-mission h2,body .nx-mission p,body .robot-life-intro,body .robot-life-intro h2,body .robot-life-intro p,body .hero-content,body .hero-content h1,body .hero-content p{color:#fff}body .nx-product-art:after{background:linear-gradient(0deg,#080808ed,transparent 80%)}body .nx-category:after,body .nx-mission:after{background:linear-gradient(90deg,#080808cb,transparent 85%)}body .robot-life-row,body .robot-life-copy,body .robot-life-copy h2{color:#191919}body .robot-life-copy p{color:#666}body .ag .ag-overview-photo>span,body .ag .ag-overview-photo small{color:white}
+body input:not([type=radio]):not([type=checkbox]),body textarea,body select{background:#fff;color:#222;border-color:#ccc}body input::placeholder,body textarea::placeholder{color:#777}body .filter-bar,body .filter-bar select{background:#fff;color:#222}body .ag .ag-quantity input{background:transparent}body .ag .ag-colors label:has(input:checked){background:#eee;border-color:#222}
+/* Recompose the catalog's former dark-overlay sections for white surfaces. */
+body .nx-catalog{border-color:#eee;padding-top:18px}
+body .nx-catalog .nx-hero{display:grid;grid-template-columns:1fr 1fr;min-height:340px;background:#f5f5f5;border:0;border-radius:24px;margin:0 0 22px;align-items:center;overflow:hidden}
+body .nx-catalog .nx-hero:after{display:none}
+body .nx-catalog .nx-hero-art{position:absolute;left:52%;right:0;width:48%;height:100%;object-fit:cover;object-position:center}
+body .nx-catalog .nx-hero-copy{width:100%;padding:40px;grid-column:1;color:#191919}
+body .nx-catalog .nx-hero-copy h1{white-space:normal;letter-spacing:.08em;font-size:clamp(28px,3vw,44px)}
+body .nx-catalog .nx-hero-copy h2,body .nx-catalog .nx-hero-copy p{color:#333}
+body .nx-catalog .nx-button,body .nx-catalog .nx-button:hover{background:#191919;color:#fff!important;border-color:#191919;box-shadow:none}
+body .nx-catalog .nx-button *{color:inherit!important}
+body .nx-catalog .nx-category{background:#f3f3f3;border:1px solid #e4e4e4;border-radius:18px;min-height:150px;color:#222;overflow:hidden}
+body .nx-catalog .nx-category:after{display:none}
+body .nx-catalog .nx-category img{left:auto;right:0;width:40%;object-fit:cover}
+body .nx-catalog .nx-category>div{width:60%;padding:24px;position:relative}
+body .nx-catalog .nx-category h2,body .nx-catalog .nx-category p{color:#222}
+body .nx-catalog .nx-circle{background:#fff;color:#222;border-color:#ccc}
+body .nx-catalog .nx-circle:hover{background:#222;color:white}
+body .nx-catalog .nx-products{gap:22px}
+body .nx-catalog .nx-products .nx-product{display:flex;flex-direction:column;aspect-ratio:auto;min-height:0;background:#fff;border:1px solid #e4e4e4;border-radius:18px;overflow:hidden}
+body .nx-catalog .nx-products .nx-product-art{display:block;position:relative;inset:auto;width:100%;height:220px;flex:none;background:#f5f5f5;overflow:hidden}
+body .nx-catalog .nx-products .nx-product-art:after{display:none}
+body .nx-catalog .nx-products .nx-product-art img{width:100%;height:100%;object-fit:cover;background:#f5f5f5;object-position:center}
+body .nx-catalog .nx-products .nx-product[data-ag100-card] .nx-product-art img{object-fit:contain;background:white}
+body .nx-catalog .nx-products .nx-product-copy{position:relative;inset:auto;width:100%;margin:0;padding:20px 55px 22px 20px;text-shadow:none;min-height:115px;color:#191919}
+body .nx-catalog .nx-products .nx-product-copy h3,body .nx-catalog .nx-products .nx-product-copy a{font-size:14px;color:#191919;line-height:1.4}
+body .nx-catalog .nx-products .nx-product-copy p,body .nx-catalog .nx-products .nx-product-copy small{color:#707070}
+body .nx-catalog .nx-products .nx-product-copy>span{color:#333;font-size:12px;display:block;margin-top:8px}
+body .nx-catalog .nx-products .nx-quick-add{bottom:22px;right:16px}
+body .nx-catalog .nx-section-title{margin:30px 2px 16px;color:#222}
+body .nx-catalog .nx-section-title a:hover{color:#555}
+body .nx-catalog .nx-mission{background:#f3f3f3;border-color:#e1e1e1;border-radius:20px;min-height:210px}
+body .nx-catalog .nx-mission:after{display:none}
+body .nx-catalog .nx-mission>img{left:50%;width:50%;object-fit:cover}
+body .nx-catalog .nx-mission>div{width:50%;padding:28px}
+body .nx-catalog .nx-mission h2,body .nx-catalog .nx-mission p{color:#222}
+body .nx-catalog .nx-mission .nx-mission-aside{display:none}
+@media(max-width:760px){body .nx-catalog .nx-hero{grid-template-columns:1fr;padding-top:210px}body .nx-catalog .nx-hero-art{top:0;left:0;width:100%;height:210px}body .nx-catalog .nx-hero-copy{padding:25px}body .nx-catalog .nx-actions{flex-wrap:wrap}body .nx-catalog .nx-category>div{padding:18px}body .nx-catalog .nx-products{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}body .nx-catalog .nx-products .nx-product-art{height:170px}body .nx-catalog .nx-products .nx-product-copy{padding:15px 15px 55px;min-height:155px}body .nx-catalog .nx-mission{padding-top:190px}body .nx-catalog .nx-mission>img{left:0;top:0;width:100%;height:190px}body .nx-catalog .nx-mission>div{width:100%;padding:24px}}
+@media(max-width:380px){body .nx-catalog .nx-products{grid-template-columns:1fr}}

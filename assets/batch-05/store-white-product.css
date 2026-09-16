@@ -1,0 +1,223 @@
+
+
+
+
+
+
+
+:root {
+    /*! General */
+    
+    /*! Menu and drawers */
+
+    /*! Product card */
+
+    /*! Buttons */
+
+    /*! Inputs */
+
+    /*! Spacing */
+
+    /*! Font family */
+    
+
+    /*! Font size */
+
+    /*! Layout */
+
+    /*! Other */
+  }
+
+  @media screen and (min-width: 1024px) {
+  }
+
+  @media screen and (min-width: 1280px) {
+  }
+
+  @media screen and (min-width: 1536px) {
+  }
+
+@media screen and (min-width:768px){}@media screen and (min-width:1024px){}/*! photoswipe */@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}/*! flickity */.flickity-button{color:#191919}.flickity-button:hover{background:#f7f7f7}/*! base */@media screen and (max-width:1023px){}@media screen and (min-width:768px){}@media(prefers-reduced-motion:no-preference){}@media screen and (min-width:640px){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}/*! rte */@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}@media screen and (min-width:1536px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@media screen and (min-width:1536px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media(prefers-reduced-motion:reduce){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}/*! button */@media screen and (max-width:767px){}@media screen and (pointer:fine){}@media screen and (hover:none){}@media screen and (min-width:1280px){}@media screen and (pointer:fine){}@media screen and (min-width:1024px){}@media screen and (max-width:767px){}@media screen and (min-width:768px){}@media screen and (min-width:1280px){}/*! media */@media screen and (min-width:768px){}@media screen and (pointer:fine){}@supports (height: 100svh){}@media screen and (min-width:768px){}@media screen and (min-width:1536px){}@media screen and (max-width:767px){@supports (height: 100svh){}}/*! table *//*! inputs */@media screen and (min-width:768px){}@supports (-webkit-overflow-scrolling: touch){}@media screen and (min-width:768px){}:is(.input,.textarea,.select):-webkit-autofill~.label{color:#191919}@media screen and (min-width:768px){}/*! color-swatch */@media screen and (pointer:fine){}@media screen and (pointer:fine){}@media screen and (min-width:768px){}@media screen and (max-width:767px){}@media screen and (pointer:fine){}/*! price-range */@media not screen and (pointer:fine){}/*! details-summary *//*! links */@media screen and (pointer:fine){}@media screen and (pointer:fine){}/*! corners */@media screen and (pointer:fine){}/*! sections */@media screen and (min-width:768px){}/*! header */@media screen and (min-width:1024px){}@media screen and (min-width:1400px){}@media screen and (pointer:fine){}@media(prefers-reduced-motion:reduce){}@media screen and (min-width:1024px){}@media screen and (max-width:1023px){}@media screen and (max-width:1023px){}@media screen and (pointer:fine){}@media screen and (pointer:fine){}@media(prefers-reduced-motion:reduce){}@media screen and (pointer:fine){}@media screen and (min-width:768px){}/*! header-sticky *//*! header-transparent */@supports selector(:has(> *)){}/*! countdown-condensed */@media screen and (min-width:1536px){}@media screen and (min-width:768px){}@media screen and (max-width:767px){}/*! announcement-bar */@media screen and (min-width:1536px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media(prefers-reduced-motion:reduce){}@media screen and (min-width:1280px){}/*! drawer */@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}@media screen and (min-width:1536px){}@media screen and (max-width:639px){}@media(prefers-reduced-motion:reduce){}/*! modal */@media screen and (min-width:640px){}@media(prefers-reduced-motion:reduce){}/*! search-drawer */@media screen and (min-width:1024px){}@media screen and (min-width:768px){}@supports (-webkit-overflow-scrolling: touch){@media screen and (min-width:768px){}}@media screen and (pointer:fine){}/*! cart-drawer */@media screen and (min-width:640px){}@media screen and (min-width:1024px){}@media screen and (pointer:fine){}@media screen and (pointer:fine){}@media screen and (min-width:1024px){}@media screen and (min-width:1536px){}.drawer__scrollable .item{background-color:#f7f7f7}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (pointer:fine){}@media screen and (min-width:1024px){}@media screen and (pointer:fine){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@supports (-webkit-overflow-scrolling: touch){}/*! gift-wrapping */@media screen and (min-width:768px){}@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}/*! free-shipping-bar */@media screen and (max-width:639px){}/*! product-complementary */@media screen and (min-width:1024px){}/*! menu-drawer */@media screen and (min-width:768px){}@media screen and (max-width:767px){}@media screen and (min-width:768px){}@media screen and (max-width:639px){}/*! dropdown-menu */@media(prefers-reduced-motion:reduce){}/*! no-js *//*! mega-menu */@media screen and (min-width:768px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}@media screen and (min-width:1280px){}@media screen and (pointer:fine){}@media screen and (min-width:1536px){}@media screen and (min-width:1280px){}@media(prefers-reduced-motion:reduce){}@media screen and (pointer:fine){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}@media screen and (min-width:1920px){}@media screen and (min-width:2200px){}/*! footer */@media screen and (min-width:768px){}@media screen and (min-width:1280px){}@media screen and (min-width:768px){}@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}@media screen and (min-width:768px){}@media screen and (max-width:767px){}@media screen and (min-width:768px)and (max-width:1023px){}@media screen and (min-width:1024px)and (max-width:1279px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:1280px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}/*! footer-copyright */@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}/*! breadcrumb */@media screen and (pointer:fine){}/*! marquee */@media(prefers-reduced-motion:reduce){}/*! scrolling-text */@media(prefers-reduced-motion:reduce){}@media screen and (pointer:fine){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:768px){}@supports (overflow: clip){}/*! logo-list */@media screen and (min-width:1024px){}@media(prefers-reduced-motion:reduce){}@media(prefers-reduced-motion:reduce){}/*! banner */@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:1536px){}@media screen and (min-width:768px){}@media screen and (min-width:1280px){}@media screen and (min-width:1920px){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (max-width:767px){}/*! map */@media screen and (min-width:768px){}@media screen and (max-width:767px){}/*! scrolled-images */@media screen and (min-width:768px){}@media screen and (min-width:1024px){}/*! empty-state */@media screen and (min-width:768px){}/*! card-grid */@media screen and (max-width:639px){}@media screen and (min-width:768px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}/*! card-product */@media screen and (pointer:fine){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (max-width:639px){}@media screen and (min-width:768px){}@media screen and (pointer:fine){}@media screen and (max-width:767px){}@media screen and (min-width:768px){}/*! product-promotion */@media screen and (min-width:768px){}@media screen and (min-width:1280px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){}@media screen and (min-width:768px){@media screen and (pointer:fine){}}@media screen and (max-width:767px){}@media screen and (max-width:639px){}/*! quick-add */@media screen and (min-width:768px){@media screen and (pointer:fine){}}@media screen and (max-width:767px){}/*! quick-view */@media screen and (pointer:fine){}@media screen and (max-width:1023px){}@media screen and (max-width:639px){}@media screen and (min-width:640px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}/*! badge */@media screen and (min-width:768px){}@media screen and (min-width:768px){}/*! price *//*! pagination */@media screen and (min-width:768px){}/*! active-facets */@media screen and (min-width:1280px){}@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}/*! multicolumn */@media screen and (min-width:768px)and (max-width:1279px){}@media screen and (min-width:640px)and (max-width:1023px){}@media screen and (pointer:fine){}@media screen and (min-width:1024px){}/*! multicolumn-with-icons */@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}/*! shopify-challenge, shopify-policy */@media screen and (min-width:1024px){}/*! alert *//*! 404 */@media screen and (min-width:768px){}/*! rich-text *//*! contact-form */@media screen and (min-width:1024px){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}/*! faq */@media screen and (min-width:1536px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px){}@media screen and (pointer:fine){}@media screen and (min-width:640px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}/*! share-buttons */@media screen and (max-width:639px){}.share-buttons .icon-facebook{fill:#666666}.share-buttons .icon-twitter{fill:#666666}.share-buttons .icon-pinterest{fill:#191919}.share-buttons .icon-telegram{fill:#666666}.share-buttons .icon-whatsapp{fill:#252525}/*! slider-element */@media screen and (max-width:1023px){}@media screen and (max-width:639px){}@media screen and (min-width:1024px){}@media(prefers-reduced-motion){}/*! main-product */@media screen and (max-width:767px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}@media screen and (min-width:1280px){}@media screen and (min-width:1280px){}@media screen and (max-width:639px){}@media screen and (min-width:640px){}@media screen and (min-width:1024px)and (max-width:1279px){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (max-width:1023px){}@media screen and (min-width:1024px){}@media screen and (max-width:639px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}@media(prefers-reduced-motion:no-preference){}@supports not (aspect-ratio: 1){}@media screen and (min-width:1024px){}@media screen and (pointer:fine){}@media screen and (min-width:1024px){}@media screen and (min-width:768px){}@media screen and (max-width:767px){}@media screen and (min-width:1024px){@media screen and (pointer:fine){}}@media screen and (min-width:768px)and (max-width:1023px){}@media screen and (min-width:1280px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (max-width:1023px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:768px){}@media screen and (max-width:767px){}/*! image-with-text */@media screen and (max-width:1023px){}@media screen and (min-width:1024px){}@media screen and (min-width:1536px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}/*! scrolling-banner */@media screen and (min-width:1024px){@supports (height: 100svh){}}/*! highlighted-text */@media screen and (-webkit-min-device-pixel-ratio:0){}@media(prefers-reduced-motion:reduce){@media screen and (-webkit-min-device-pixel-ratio:0){}}/*! testimonials *//*! reveal-testimonials */@media screen and (min-width:768px){}@media screen and (min-width:1024px){}/*! timeline */@media(prefers-reduced-motion:reduce){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}/*! portfolio */@media screen and (min-width:1024px){}@media screen and (max-width:1279px){}@media screen and (min-width:1280px){}@media screen and (min-width:768px){}@media screen and (pointer:fine){}@media screen and (min-width:768px){}@media screen and (min-width:1280px){}@media screen and (max-width:639px){}/*! video-hero */@media screen and (min-width:768px){}@media screen and (min-width:1024px){}/*! collage */@supports (overflow: clip){}@media screen and (pointer:fine){}@media screen and (min-width:768px){}@media screen and (max-width:767px){}@media screen and (max-width:1023px){}@media screen and (min-width:1024px){}@media screen and (min-width:1024px)and (max-width:1279px){}@media screen and (min-width:1280px){}@media screen and (min-width:1536px){}/*! collage-grid */@media screen and (min-width:768px){}/*! featured-collections */@media screen and (max-width:767px){}/*! countdown-timer */@media screen and (min-width:1024px){}/*! image-comparison */@media screen and (min-width:1024px){}@media(prefers-reduced-motion:reduce){}@media screen and (max-width:767px){}@media screen and (min-width:768px){}/*! lookbook */@media screen and (min-width:768px){}@media screen and (pointer:fine){}@media screen and (min-width:1024px){}/*! shop-the-look */@media screen and (max-width:1023px){}@media screen and (max-width:1023px){}@media screen and (max-width:767px){}@media screen and (min-width:1024px){}@media screen and (min-width:1536px){}/*! slideshow */@media screen and (min-width:1024px){}@media screen and (min-width:1536px){}@media screen and (min-width:640px){}@media screen and (max-width:639px){}@media screen and (min-width:1024px){}@media screen and (min-width:768px){}/*! product-countdown */@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}/*! Back-in-stock *//*! product-details */@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:1536px){}@media screen and (min-width:1024px){}@media screen and (min-width:768px){}@media screen and (max-width:767px){}/*! reveal-banner */@supports (height: 100lvh){}/*! splitting-banner */@supports (height: 100lvh){}/*! highlight-text */@media screen and (pointer:fine){}/*! product-bundle */@media screen and (min-width:1024px){}@media screen and (min-width:1024px)and (max-width:1279px){}@media screen and (min-width:1024px){}@media screen and (min-width:1280px){}@media screen and (max-width:1023px){@media screen and (pointer:fine){}}/*! shop-the-feed */@media screen and (min-width:768px){}@media screen and (pointer:fine){}@media screen and (min-width:1024px){}@media screen and (min-width:1536px){}@media screen and (max-width:639px){}/*! newsletter-popup *//*! Shopify Cookie banner *//*! custom-section */@media screen and (max-width:639px){}@media screen and (min-width:768px){}@media screen and (max-width:767px){}@media screen and (min-width:768px){}@media screen and (min-width:1024px){}@media screen and (min-width:768px){}@media screen and (max-width:767px){}@media screen and (min-width:768px){}/*! comparison-table */@media screen and (min-width:768px){}@media screen and (max-width:767px){}@media screen and (pointer:fine){}@media screen and (max-width:639px){}/*! product-comparison  */@media screen and (min-width:768px){}@media screen and (max-width:639px){}/*! scrollspy-section */.viaim__head h2{color:#191919}@media(min-width:1280px)and (max-width:1600px){}@media(max-width:768px){}@media screen and (min-width:1280px){}
+/*# sourceMappingURL=/cdn/shop/t/70/assets/theme.css.map?v=181330035708988173481788788047 */
+
+body.on-page{background:#f7f7f7;color:#191919}.on-announcement{background:#e8e8e8}.on-header{background:#f7f7f7}.on-mini{background:#f7f7f7}.on-mini a:hover{color:#666666}.on-mega-tabs button.active{color:#666666}.on-mega-products small{color:#666666}.on-thumbs button.active{border-color:#dedede}.on-gallery-categories{background:#f7f7f7}.on-gallery-categories button.active{color:#252525;background:#f4f4f4}.on-stars{color:#666666}.on-description em{color:#252525}.on-description strong{color:#252525}.on-option-values span{border:1px solid #dedede}.on-option-values input:checked+span{border:2px solid #dedede;background:#f7f7f7}.on-selection{background:#f7f7f7;border:1px solid #dedede}.on-selection small{color:#666666}.on-product-form details{border-bottom:1px solid #dedede}.on-product-form details>div{color:#666666}.on-quantity input{border:1px solid #dedede}.on-add{background:#e8e8e8;color:#252525}.on-add:disabled{background:#f7f7f7}.on-delivery{border-top:1px solid #dedede}.on-image-dialog{background:#f7f7f7}.on-reviews>p{color:#666666}.on-services{border-top:1px solid #dedede}.on-services small{color:#666666}.on-footer{background:#f7f7f7}.on-footer a{color:#666666}.on-footer a:hover{color:#666666}.on-footer-bottom{border-top:1px solid #dedede;color:#666666}.on-sticky-buy{background:#f7f7f7f2;border-top:1px solid #dedede}.on-sticky-buy a{background:#e8e8e8;color:#252525}.on-setup-choices span{border:1px solid #dedede}.on-setup-choices small{color:#666666}.on-setup-choices input:checked+span{border:2px solid #dedede;background:#f7f7f7}.on-plan-hint{color:#666666}.on-review-head small{color:#666666}.on-review-head button{background:#e8e8e8;color:#252525}.on-review-controls{border-top:1px solid #dedede}.on-review-controls input,.on-review-controls select{border:1px solid #dedede}.on-review-entry{border-bottom:1px solid #dedede}.on-review-author{color:#666666}.on-review-pager button{border:1px solid #dedede}
+@media(max-width:1023px){}
+@media(max-width:767px){.on-navigation{background:#f7f7f7}.on-page .ai-summary__tab.is-active{background:#f4f4f4}}
+/* Recording mode copy occupies its own row, even when tab labels wrap. */
+/* The long ease-out and stagger give entrance motion its soft trailing feel. */
+.on-page .on-header-inner{background:#f7f7f7}.on-page .on-navigation>details.menu-visible>summary,.on-page .on-navigation>details>summary:hover,.on-page .on-navigation>a:hover{background:#f4f4f4;color:#252525}
+.on-page .on-mini .on-menu-surface{background:#f7f7f7}.on-page .on-mega-tabs button.active{color:#191919}.on-page .on-mega-bottom>a:last-child{border-top:1px solid #dedede}.on-page .on-mega-card-image{background:#f7f7f7}.on-page .on-card-arrow{background:#f7f7f7}.on-page .on-mega-card>p{color:#666666}
+@media(max-width:1100px) and (min-width:768px){}
+@media(max-width:767px){}
+@media(prefers-reduced-motion:reduce){}
+
+/* Shared header geometry, independent of page typography. */
+@media(max-width:1100px){}
+/* VIAIM's rising duplicate label, with inverse colours for the dark header. */
+body .on-header .nx-hover-fill{background:#f7f7f7;color:#191919}
+@media(hover:hover) and (pointer:fine){}
+@media(max-width:1100px){body .on-header .nx-hover-fill{background:#f4f4f4}}
+@media(prefers-reduced-motion:reduce){}
+
+/* Keep the current pill while crossing into its menu, including the short gap. */
+@media(hover:hover) and (pointer:fine){}
+
+
+
+  @media screen and (max-width: 767px) {
+    }
+  
+  .recording-modes-section .recording-modes__title {
+    color: #191919;
+  }
+  @media screen and (min-width: 990px) {
+  }
+  .recording-modes-section .recording-modes__media {
+    background: #f7f7f7;
+  }
+  .recording-modes-section .recording-modes__tab-label {
+    color: #191919;
+  }
+  .recording-modes-section .recording-modes__placeholder {
+    color: #252525;
+  }
+  @media(max-width:768px){
+  }
+
+@media (max-width: 768px) {
+}
+
+  .ai-summary-section {
+    background: #f7f7f7;
+  }
+  .ai-summary-section .ai-summary__title {
+  }
+  .ai-summary-section .ai-summary__tab-bar {
+    background: #f7f7f7;
+  }
+  .ai-summary-section .ai-summary__tab-indicator {
+    background: #f4f4f4;
+  }
+  .ai-summary-section .ai-summary__tab {
+    color: #191919;
+  }
+  .ai-summary-section .ai-summary__tab:hover {
+    color: #191919;
+  }
+  .ai-summary-section .ai-summary__tab.is-active {
+    color: #252525;
+background:  #f4f4f4;
+  }
+  .ai-summary-section .ai-summary__card {
+    background: #f7f7f7;
+  }
+
+  .ai-summary-section .ai-summary__card-heading {
+    color: #191919;
+  }
+  .ai-summary-section .ai-summary__placeholder {
+    color: #252525;
+  }
+  @media(max-width:768px){
+  }
+
+
+  @media screen and (min-width: 1024px) {
+  }
+
+  .recdot-features {
+    background: #f7f7f7;
+  }
+  .recdot-features .recdot-features__title {
+    color: #191919;
+  }
+  .recdot-features .recdot-features__tab-pill {
+    background: #f7f7f7;
+  }
+
+  #recdot-features-opennote-08-app:checked ~ .recdot-features__tab-bar label[for="recdot-features-opennote-08-app"],
+  #recdot-features-opennote-08-web:checked ~ .recdot-features__tab-bar label[for="recdot-features-opennote-08-web"] {
+    color: #252525;
+  }
+  .recdot-features .recdot-features__card-visual-placeholder {
+    color: #252525;
+  }
+
+
+  .recdot-features .recdot-features__card-title {
+    color: #191919;
+  }
+
+
+  .recdot-features .recdot-features__badge {
+    background: #ffffff;
+    color: #252525;
+  }
+  .recdot-features .recdot-features__store-fallback {
+    background: #ffffff;
+    color: #252525;
+  }
+  .recdot-features .recdot-features__list-title {
+    color: #191919;
+  }
+@media(max-width:768px){
+}
+
+  #plan-compare-opennote-09 {
+    background: #f7f7f7;
+  }
+  #plan-compare-opennote-09 .pc__title {
+    color: #191919;
+  }
+  #plan-compare-opennote-09 .pc__title em {
+    color: #666666;
+  }
+  #plan-compare-opennote-09 .pc__subtitle {
+    color: #191919;
+  }
+  /* ---------- right comparison table ---------- */
+  #plan-compare-opennote-09 .pc__table-frame {
+    background: #f7f7f7;
+  }
+  #plan-compare-opennote-09 .pc__spotlight::after {
+    background: #f7f7f7;
+  }
+  #plan-compare-opennote-09 .pc__cell {
+    color: #191919;
+  }
+  #plan-compare-opennote-09 .pc__plan-title {
+    color: #191919;
+  }
+  #plan-compare-opennote-09 .pc__plan-title--accent {
+    color: #666666;
+  }
+  #plan-compare-opennote-09 .pc__plan-tag {
+    color: #666666;
+  }
+  #plan-compare-opennote-09 .pc__cell-strong {
+    color: #666666;
+  }
+  #plan-compare-opennote-09 .pc__icon path {
+    stroke: #191919;
+  }
+  #plan-compare-opennote-09 .pc__note {
+    color: #191919;
+  }
+  #plan-compare-opennote-09 .pc__btn {
+    background: #f4f4f4;
+    color: #252525;
+  }
+
+  @media screen and (min-width: 990px) {
+  }
+
+  @media screen and (max-width: 989px) {
+  }
+
+  @media screen and (max-width: 767px) {
+    }
+  
+  @media screen and (max-width: 767px) {
+    }
+  
+

@@ -1,0 +1,44 @@
+.on-announcement{background:#e8e8e8}.on-header{background:#f7f7f7}.on-mini{background:#f7f7f7}.on-mini a:hover{color:#666666}.on-mega-tabs button.active{color:#666666}.on-mega-products small{color:#666666}
+.nx-store .on-header{color:#191919}.nx-store .on-header p{color:#666666}
+:is(.on-page,.nx-store) .on-header-inner{background:#f7f7f7}:is(.on-page,.nx-store) .on-navigation>details.menu-visible>summary,:is(.on-page,.nx-store) .on-navigation>details>summary:hover,:is(.on-page,.nx-store) .on-navigation>a:hover{background:#f4f4f4;color:#252525}
+:is(.on-page,.nx-store) .on-mini .on-menu-surface{background:#f7f7f7}:is(.on-page,.nx-store) .on-mega-tabs button.active{color:#191919}:is(.on-page,.nx-store) .on-mega-bottom>a:last-child{border-top:1px solid #dedede}:is(.on-page,.nx-store) .on-mega-card-image{background:#f7f7f7}:is(.on-page,.nx-store) .on-card-arrow{background:#f7f7f7}:is(.on-page,.nx-store) .on-mega-card>p{color:#666666}
+@media(max-width:1100px) and (min-width:768px){}
+@media(max-width:767px){}
+
+@media(max-width:767px){.nx-store .on-navigation{background:#f7f7f7}}@media(prefers-reduced-motion:reduce){}
+/* Dark storefront bar, with the same light dropdown panels as the product page. */
+.nx-store .on-header,.nx-store .on-header-inner{background:#ffffff;color:#252525}.nx-store .on-mini{color:#191919}.nx-store .on-navigation>details.menu-visible>summary,.nx-store .on-navigation>details>summary:hover,.nx-store .on-navigation>a:hover{background:#f7f7f7;color:#191919}.nx-store .on-header .on-mini a:hover{color:#666666}.nx-store .on-header .on-mini button{color:#191919}@media(max-width:767px){.nx-store .on-navigation{background:#f7f7f7;color:#191919}}
+/* Shared edge-to-edge storefront shell. */
+body.nx-store{background:#ffffff!important}
+body.nx-store .on-header,body.on-page .on-header{background:#fffffff5!important;color:#252525!important}
+body.nx-home-page .on-header:not(.menu-active){background:#ffffffe8!important}
+.nx-product-strip{color:#252525;background:#fffffff5}
+.nx-product-strip .nx-strip-cta{background:#f7f7f7;color:#191919}
+@media(max-width:1100px){body.nx-store .on-header .on-navigation,body.on-page .on-header .on-navigation{background:#f7f7f7;color:#191919}}
+@media(max-width:480px){}
+@media(prefers-reduced-motion:reduce){}@media(max-width:900px){}
+
+.on-header .nx-product-strip .nx-strip-cta{color:#191919!important}
+/* Keep the expanded catalog links readable in the mobile mega menu. */
+@media(max-width:767px){}
+
+/* Match Wearables' top-level category typography. Recorder showcase is excluded. */
+@media(max-width:1100px){
+}
+
+.tj-page{background:#ffffff;color:#252525}.tj-kicker{color:#252525}.tj-caption{color:#666666}.tj-skip{background:#f7f7f7;color:#191919!important}.tj-hero h1 em{color:#252525}.tj-hero p:not(.tj-kicker){color:#252525}.tj-hero-link{border-bottom:1px solid #dedede}.tj-hero-bottom{border-top:1px solid #dedede;color:#252525}.tj-mini-cover{background:#f7f7f7;color:#191919;border-left:5px solid #dedede}.tj-cover-back{background:#e8e8e8}.tj-contents nav a{border-top:1px solid #dedede;color:#252525}.tj-contents nav a:last-child{border-bottom:1px solid #dedede}.tj-contents nav span{color:#666666}.tj-contents nav a[aria-current=true]{color:#252525}.tj-contents nav a[aria-current=true] span{color:#252525}.tj-contents nav a[aria-current=true] i{color:#252525}.tj-contents>p{color:#666666}.tj-all-products{color:#252525!important}.tj-chapter{background:#f7f7f7;color:#191919}.tj-editorial{border-right:1px solid #dedede}.tj-page-meta{color:#252525}.tj-editorial .tj-deck{color:#666666}.tj-editorial>p:not(.tj-deck){color:#666666}.tj-rule{background:#f7f7f7}.tj-cover{background:#f7f7f7}.tj-cover figcaption{color:#666666;background:#f7f7f7}.tj-chapter .tj-kicker{color:#666666}.tj-explanation p{color:#666666}.tj-diagram{border:1px solid #dedede}.tj-diagram-label{color:#666666}.tj-wave i{background:#f7f7f7}.tj-wave i:nth-child(3n){background:#f7f7f7}.tj-diagram svg{stroke:#666666}.tj-diagram .tj-light-path{stroke:#252525}.tj-diagram .tj-green{stroke:#252525}.tj-robot-face{border:5px solid #dedede}.tj-robot-face i{background:#f7f7f7}.tj-robot-face>span{color:#252525}.tj-robot-base{background:#f7f7f7}.tj-depth-frame{border:8px solid #dedede;background:#f4f4f4}.tj-view-ray{background:#f7f7f7}.tj-angle-label{color:#666666}.tj-angle-label output{color:#666666}.tj-facts>div{border-top:1px solid #dedede}.tj-facts span{color:#252525}.tj-facts p{color:#252525}.tj-variations{background:#f7f7f7}.tj-variant-tabs{border-block:1px solid #dedede}.tj-variant-tabs button{color:#666666}.tj-variant-tabs button+button{border-left:1px solid #dedede}.tj-variant-tabs button[aria-selected=true]{color:#191919;background:#f7f7f7;border-bottom-color:#dedede}.tj-variant-photo{background:#f7f7f7}.tj-variant-photo>span{color:#666666}.tj-variant-copy p{color:#666666}.tj-button{border:1px solid #dedede;color:#666666!important;background:#f7f7f7}.tj-button:hover{background:#f7f7f7}.tj-question{border-top:1px solid #dedede}.tj-question summary span{color:#252525}.tj-question p{color:#666666}.tj-footnotes{border-top:1px solid #dedede;color:#252525}.tj-next{background:#f7f7f7}.tj-next>span{color:#252525}.tj-next>b{color:#666666}.tj-interlude p{color:#252525}.tj-source-link{color:#666666!important}.tj-footer{border-top:1px solid #dedede;color:#252525}.tj-footer>a:first-child{color:#252525}
+@media(max-width:1100px){.tj-page .on-header .on-navigation{color:#191919}}
+@media(max-width:800px){}
+@media(prefers-reduced-motion:reduce){}
+
+/* Shared header geometry, independent of page typography. */
+@media(max-width:1100px){}
+/* VIAIM's rising duplicate label, with inverse colours for the dark header. */
+body .on-header .nx-hover-fill{background:#f7f7f7;color:#191919}
+@media(hover:hover) and (pointer:fine){}
+@media(max-width:1100px){body .on-header .nx-hover-fill{background:#f4f4f4}}
+@media(prefers-reduced-motion:reduce){}
+
+/* Keep the current pill while crossing into its menu, including the short gap. */
+@media(hover:hover) and (pointer:fine){}
+

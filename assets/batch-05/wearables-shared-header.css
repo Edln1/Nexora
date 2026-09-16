@@ -1,0 +1,10 @@
+/* Shared menus and typography; the Wearables scroll journey stays intact. */
+.nx-wearables-page .on-header{position:sticky;top:0;z-index:70;line-height:1.5}
+.nx-wearables-page .on-header .on-header-icons{gap:16px}
+.nx-wearables-page .on-header .on-menu-surface{line-height:1.5}
+.nx-wearables-page .on-header .on-mega-card-title{font-size:16px}
+.nx-wearables-page .on-header .on-mini p{font-size:12px}
+.nx-wearables-page .on-header .on-logo{line-height:1.5}
+.nx-wearables-page .on-header .on-mini img{max-width:100%}
+.nx-wearables-page .wr-mode-toggle{color:inherit}
+@media(max-width:1100px){.nx-wearables-page .on-header .on-navigation{color:#171717}.nx-wearables-page .on-header .on-header-icons{gap:12px}}
