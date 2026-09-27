@@ -1,0 +1,47 @@
+[
+  {
+    "sku": "portable-green",
+    "page": "portable-companion",
+    "name": "Portable Companion",
+    "variant": "Green",
+    "amount": 5999,
+    "image": "portable-studio.png",
+    "ready": false
+  },
+  {
+    "sku": "pixel-white",
+    "page": "pixel-alarm-clock",
+    "name": "Pixel Bedside",
+    "variant": "White",
+    "amount": 4499,
+    "image": "clock-studio.png",
+    "ready": false
+  },
+  {
+    "sku": "watch-blue",
+    "page": "ai-voice-watch",
+    "name": "AI Voice Watch",
+    "variant": "Blue",
+    "amount": 4999,
+    "image": "watch-studio.png",
+    "ready": false
+  },
+  {
+    "sku": "pendant-silver",
+    "page": "wearable-ai-companion",
+    "name": "Wearable AI Companion",
+    "variant": "Silver",
+    "amount": 12999,
+    "image": "wearable-studio.png",
+    "ready": false
+  },
+  {
+    "sku": "dog-white",
+    "page": "robot-dog",
+    "name": "Robot Dog",
+    "variant": "White",
+    "amount": 7999,
+    "image": "dog-studio.png",
+    "ready": false
+  }
+]
