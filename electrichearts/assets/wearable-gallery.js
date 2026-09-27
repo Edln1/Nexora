@@ -1,0 +1,1 @@
+document.addEventListener('click',event=>{const button=event.target.closest('.wc-thumbs button');if(!button)return;const gallery=button.closest('.wc-gallery');const image=gallery.querySelector('#product-image');if(!image)return;image.src=button.dataset.image;gallery.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));},true);

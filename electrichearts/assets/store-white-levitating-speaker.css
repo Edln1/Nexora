@@ -1,0 +1,93 @@
+/* inter-cyrillic-ext-standard-normal */
+
+/* inter-cyrillic-standard-normal */
+
+/* inter-greek-ext-standard-normal */
+
+/* inter-greek-standard-normal */
+
+/* inter-vietnamese-standard-normal */
+
+/* inter-latin-ext-standard-normal */
+
+/* inter-latin-standard-normal *//* inter-cyrillic-ext-standard-italic */
+
+/* inter-cyrillic-standard-italic */
+
+/* inter-greek-ext-standard-italic */
+
+/* inter-greek-standard-italic */
+
+/* inter-vietnamese-standard-italic */
+
+/* inter-latin-ext-standard-italic */
+
+/* inter-latin-standard-italic */.eyebrow{color:#252525}.announcement{color:#252525}.header-search{border:1px solid #dedede;background:#f4f4f4}.hero-copy p{color:#252525}.button{background:#f7f7f7;color:#191919}.button:hover{color:#191919}.hero-foot{color:#252525}.hero-foot span:first-child{color:#252525}.category:hover{border-color:#dedede}.category-index{color:#252525}.round-arrow{border:1px solid #dedede}.product-card{background:#f4f4f4}.product-image{background:#f4f4f4}.price{color:#252525}.badge{border:1px solid #dedede}.editorial-copy{background:#f4f4f4}.value-number{color:#252525}.site-footer{background:#ffffff}.email-row{border-bottom:1px solid #dedede}input,select,textarea{background:#f4f4f4;border:1px solid #dedede}input::placeholder{color:#252525}label{color:#252525}.media-item{background:#f4f4f4}.pagination [aria-current]{color:#191919}.hub-routines{background:#f4f4f4}.placeholder-svg{background:#f4f4f4;fill:#252525}.errors{color:#252525}
+@media(min-width:1600px){}@media(max-width:1150px){}
+@media(max-width:800px){.mobile-menu nav{background:#f4f4f4}}
+@media(max-width:540px){}
+@media(prefers-reduced-motion:reduce){}
+/* Product editorial layout: deliberately generous outer gutters. */.media-zoom{background:#f4f4f4}.media-categories button[aria-pressed=true]{background:#f4f4f4}.option-pills span{border:1px solid #dedede}.option-pills input:checked+span{background:#f4f4f4}.cinema-caption{color:#252525}.tab-list button[aria-selected=true]{color:#191919}.tab-panel{background:#f4f4f4}.feature-tile{background:#f4f4f4}.step-circle{border:1px solid #dedede}.comparison-table thead{background:#f4f4f4}.trust-panel{border:1px solid #dedede}.trust-symbol{border:1px solid #dedede}.box-number{color:#666666}.sticky-purchase>.product-wrap{background:#f4f4f4f0;border:1px solid #dedede}.image-dialog{background:#ffffff}.image-dialog>button{border:1px solid #dedede;background:#f4f4f4}
+@media(max-width:1100px){}@media(max-width:800px){}@media(max-width:540px){}
+@media(prefers-reduced-motion:reduce){}
+
+/* Reference-inspired navigation, rebuilt for Nexora. */.nav-button:hover,.enhanced-nav details[open]>summary{background:#f4f4f4}.mini-flyout{background:#f4f4f4;border:1px solid #dedede}.mini-flyout a:hover{background:#f4f4f4}.mega-flyout{background:#f4f4f4ee;border-block:1px solid #dedede}.mega-side{border-right:1px solid #dedede}.mega-bottom-link{border-top:1px solid #dedede}.mega-product>img,.mega-product>.placeholder-svg{border:1px solid #dedede}.mega-view{background:#f7f7f7;color:#191919}.header-icon:hover{background:#f4f4f4}.cart-link.header-icon span{color:#191919}@media(max-width:1150px){}@media(max-width:1000px){.enhanced-header .mobile-menu>nav{background:#f4f4f4}}@media(prefers-reduced-motion:reduce){}
+
+/* Large media and policy content retain natural aspect and horizontal containment. */
+
+/* Typography correction: light display lettering based on the supplied NOVA reference. */
+.hero h1{color:#252525}
+.hero-copy p{color:#252525}
+@media(max-width:800px){}
+@media(max-width:540px){}
+
+.on-announcement{background:#e8e8e8}.on-header{background:#f7f7f7}.on-mini{background:#f7f7f7}.on-mini a:hover{color:#666666}.on-mega-tabs button.active{color:#666666}.on-mega-products small{color:#666666}
+.nx-store .on-header{color:#191919}.nx-store .on-header p{color:#666666}
+:is(.on-page,.nx-store) .on-header-inner{background:#f7f7f7}:is(.on-page,.nx-store) .on-navigation>details.menu-visible>summary,:is(.on-page,.nx-store) .on-navigation>details>summary:hover,:is(.on-page,.nx-store) .on-navigation>a:hover{background:#f4f4f4;color:#252525}
+:is(.on-page,.nx-store) .on-mini .on-menu-surface{background:#f7f7f7}:is(.on-page,.nx-store) .on-mega-tabs button.active{color:#191919}:is(.on-page,.nx-store) .on-mega-bottom>a:last-child{border-top:1px solid #dedede}:is(.on-page,.nx-store) .on-mega-card-image{background:#f7f7f7}:is(.on-page,.nx-store) .on-card-arrow{background:#f7f7f7}:is(.on-page,.nx-store) .on-mega-card>p{color:#666666}
+@media(max-width:1100px) and (min-width:768px){}
+@media(max-width:767px){}
+
+@media(max-width:767px){.nx-store .on-navigation{background:#f7f7f7}}@media(prefers-reduced-motion:reduce){}
+/* Dark storefront bar, with the same light dropdown panels as the product page. */
+.nx-store .on-header,.nx-store .on-header-inner{background:#ffffff;color:#252525}.nx-store .on-mini{color:#191919}.nx-store .on-navigation>details.menu-visible>summary,.nx-store .on-navigation>details>summary:hover,.nx-store .on-navigation>a:hover{background:#f7f7f7;color:#191919}.nx-store .on-header .on-mini a:hover{color:#666666}.nx-store .on-header .on-mini button{color:#191919}@media(max-width:767px){.nx-store .on-navigation{background:#f7f7f7;color:#191919}}
+/* Shared edge-to-edge storefront shell. */
+body.nx-store{background:#ffffff!important}
+body.nx-store .on-header,body.on-page .on-header{background:#fffffff5!important;color:#252525!important}
+body.nx-home-page .on-header:not(.menu-active){background:#ffffffe8!important}
+.nx-product-strip{color:#252525;background:#fffffff5}
+.nx-product-strip .nx-strip-cta{background:#f7f7f7;color:#191919}
+@media(max-width:1100px){body.nx-store .on-header .on-navigation,body.on-page .on-header .on-navigation{background:#f7f7f7;color:#191919}}
+@media(max-width:480px){}
+@media(prefers-reduced-motion:reduce){}@media(max-width:900px){}
+
+.on-header .nx-product-strip .nx-strip-cta{color:#191919!important}
+/* Keep the expanded catalog links readable in the mobile mega menu. */
+@media(max-width:767px){}
+
+.nx-catalog-page{background:#f4f4f4}.nx-catalog{background:#ffffff;border-inline:1px solid #dedede;color:#252525}.nx-catalog p{color:#252525}.nx-catalog a:hover{color:#252525}.nx-hero{border-bottom:1px solid #dedede}.nx-button{background:#f7f7f7;border:1px solid #dedede;color:#191919!important}.nx-outline{color:#252525!important;border-color:#dedede}.nx-hero-aside span{border-bottom:1px solid #dedede}.nx-hero-bottom{color:#252525}.nx-slide-control button{color:#252525}.nx-slide-control button.active{border-color:#dedede}{border:1px solid #dedede;background:#f4f4f4}.nx-circle{border:1px solid #dedede;color:#252525}.nx-product{border:1px solid #dedede;background:#f4f4f4}{color:#252525}.nx-quick-add:hover{background:#f7f7f7;color:#191919}{border:1px solid #dedede}.nx-benefits{border-bottom:1px solid #dedede}.nx-benefits>div{border-right:1px solid #dedede}.nx-story-grid article{border:1px solid #dedede}.nx-story-icon{border:1px solid #dedede;color:#252525}.nx-story-grid small{color:#252525}.nx-footer{border-top:1px solid #dedede;color:#252525}.nx-catalog-page .on-header{border-bottom:1px solid #dedede}
+@media(min-width:1500px){}
+@media(max-width:1000px){}
+@media(max-width:700px){}
+@media(prefers-reduced-motion:reduce){}
+
+@media(min-width:701px){}
+.nx-sourcing-page .robot-main{background:#f7f7f7}.candidate-details{border:1px solid #dedede;color:#252525}.candidate-details summary{color:#252525}@media(max-width:900px){}@media(prefers-reduced-motion:reduce){}
+
+/* Match Wearables' top-level category typography. Recorder showcase is excluded. */
+@media(max-width:1100px){
+}
+
+/* Shared header geometry, independent of page typography. */
+@media(max-width:1100px){}
+/* VIAIM's rising duplicate label, with inverse colours for the dark header. */
+body .on-header .nx-hover-fill{background:#f7f7f7;color:#191919}
+@media(hover:hover) and (pointer:fine){}
+@media(max-width:1100px){body .on-header .nx-hover-fill{background:#f4f4f4}}
+@media(prefers-reduced-motion:reduce){}
+
+/* Keep the current pill while crossing into its menu, including the short gap. */
+@media(hover:hover) and (pointer:fine){}
+
+.robot-life{color:#252525}{background:#e8e8e8}.robot-life-copy p{color:#252525}.robot-life-caption{color:#252525}@media(max-width:767px){}@media(prefers-reduced-motion:reduce){}
+.robot-crumb{color:#252525}.robot-thumbs button[aria-pressed=true]{border-color:#dedede}.robot-copy p{color:#252525}.robot-label{color:#252525}.robot-status{border:1px solid #dedede}.robot-specs{border-block:1px solid #dedede}.robot-features article{background:#f4f4f4;border:1px solid #dedede}.robot-features p{color:#252525}.robot-note{color:#252525}@media(max-width:767px){}

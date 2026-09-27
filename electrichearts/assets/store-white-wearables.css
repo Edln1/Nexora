@@ -1,0 +1,72 @@
+.wr-page{background:#f7f7f7;color:#191919}.wr-header{color:#252525}.wr-cart-count{background:#f7f7f7;color:#191919}
+{background:#ffffff;color:#252525}.wr-button-white{color:#191919!important;background:#f7f7f7}.wr-button-dark{color:#252525!important;background:#ffffff}.wr-button-outline{border-color:#dedede;color:#191919}.wr-film>span{border:1px solid #dedede}.wr-film-dialog{background:#ffffff}
+.wr-categories{background:#f7f7f7}.wr-category{background:#f7f7f7}.wr-category-arrow{background:#e8e8e8}.wr-signature{background:#f7f7f7}.wr-product-values li+li{border-left:1px solid #dedede}.wr-product-values li>svg{border:1px solid #dedede}.wr-signature .wr-marginal{color:#191919}.wr-story{background:#f7f7f7}
+.wr-products{background:#f7f7f7}.wr-filters button{color:#191919}.wr-filters button.is-active{background:#ffffff}.wr-product-image{background:#f7f7f7}.wr-badge{background:#f4f4f4;color:#252525}.wr-product p{color:#666666}.wr-price s{color:#666666}.wr-coming{color:#666666}.wr-filter-status:not(:empty){color:#666666}.wr-services{border-top:1px solid #dedede}.wr-services>a+ a{border-left:1px solid #dedede}.wr-services small{color:#666666}
+.wr-footer{color:#252525;background:#f4f4f4}.wr-footer-column>a{color:#252525}.wr-email{border:1px solid #dedede}.wr-email input{color:#252525}.wr-email input::placeholder{color:#252525}.wr-email button{color:#252525}.wr-newsletter-note,.wr-newsletter form>p{color:#252525}.wr-footer-bottom{color:#252525}
+@media(min-width:1600px){}
+@media(max-width:1100px){}
+@media(max-width:800px){.wr-header nav{background:#f4f4f4f5}}
+@media(max-width:420px){}
+@media(prefers-reduced-motion:reduce){}
+
+/* Final desktop spacing and continuous studio backgrounds. */
+@media(min-width:801px){}
+
+/* Actual featured-product photography keeps its natural proportions. */
+@media(max-width:800px){}
+
+.wr-landscape-portal{background:#f4f4f4}
+.wr-route-caption{color:#252525}
+.wr-route-rail{color:#252525}
+@media(max-width:800px){}
+@media(prefers-reduced-motion:reduce){}
+@media(max-width:800px){.wr-coast-active .wr-story-copy{background:#f7f7f7e8}}
+
+/* The same video surface supplies the opening frame and the whole flight. */
+
+/* Start at the original banner proportions; the scenery expands behind the panels. */
+@media(max-width:800px){}
+@media(max-width:800px){}
+
+.on-announcement{background:#e8e8e8}.on-header{background:#f7f7f7}.on-mini{background:#f7f7f7}.on-mini a:hover{color:#666666}.on-mega-tabs button.active{color:#666666}.on-mega-products small{color:#666666}
+.nx-store .on-header{color:#191919}.nx-store .on-header p{color:#666666}
+:is(.on-page,.nx-store) .on-header-inner{background:#f7f7f7}:is(.on-page,.nx-store) .on-navigation>details.menu-visible>summary,:is(.on-page,.nx-store) .on-navigation>details>summary:hover,:is(.on-page,.nx-store) .on-navigation>a:hover{background:#f4f4f4;color:#252525}
+:is(.on-page,.nx-store) .on-mini .on-menu-surface{background:#f7f7f7}:is(.on-page,.nx-store) .on-mega-tabs button.active{color:#191919}:is(.on-page,.nx-store) .on-mega-bottom>a:last-child{border-top:1px solid #dedede}:is(.on-page,.nx-store) .on-mega-card-image{background:#f7f7f7}:is(.on-page,.nx-store) .on-card-arrow{background:#f7f7f7}:is(.on-page,.nx-store) .on-mega-card>p{color:#666666}
+@media(max-width:1100px) and (min-width:768px){}
+@media(max-width:767px){}
+
+@media(max-width:767px){.nx-store .on-navigation{background:#f7f7f7}}@media(prefers-reduced-motion:reduce){}
+/* Dark storefront bar, with the same light dropdown panels as the product page. */
+.nx-store .on-header,.nx-store .on-header-inner{background:#ffffff;color:#252525}.nx-store .on-mini{color:#191919}.nx-store .on-navigation>details.menu-visible>summary,.nx-store .on-navigation>details>summary:hover,.nx-store .on-navigation>a:hover{background:#f7f7f7;color:#191919}.nx-store .on-header .on-mini a:hover{color:#666666}.nx-store .on-header .on-mini button{color:#191919}@media(max-width:767px){.nx-store .on-navigation{background:#f7f7f7;color:#191919}}
+/* Shared edge-to-edge storefront shell. */
+body.nx-store{background:#ffffff!important}
+body.nx-store .on-header,body.on-page .on-header{background:#fffffff5!important;color:#252525!important}
+body.nx-home-page .on-header:not(.menu-active){background:#ffffffe8!important}
+.nx-product-strip{color:#252525;background:#fffffff5}
+.nx-product-strip .nx-strip-cta{background:#f7f7f7;color:#191919}
+@media(max-width:1100px){body.nx-store .on-header .on-navigation,body.on-page .on-header .on-navigation{background:#f7f7f7;color:#191919}}
+@media(max-width:480px){}
+@media(prefers-reduced-motion:reduce){}@media(max-width:900px){}
+
+.on-header .nx-product-strip .nx-strip-cta{color:#191919!important}
+/* Keep the expanded catalog links readable in the mobile mega menu. */
+@media(max-width:767px){}
+
+/* Match Wearables' top-level category typography. Recorder showcase is excluded. */
+@media(max-width:1100px){
+}
+
+/* Shared menus and typography; the Wearables scroll journey stays intact. */
+@media(max-width:1100px){.nx-wearables-page .on-header .on-navigation{color:#191919}}
+
+/* Shared header geometry, independent of page typography. */
+@media(max-width:1100px){}
+/* VIAIM's rising duplicate label, with inverse colours for the dark header. */
+body .on-header .nx-hover-fill{background:#f7f7f7;color:#191919}
+@media(hover:hover) and (pointer:fine){}
+@media(max-width:1100px){body .on-header .nx-hover-fill{background:#f4f4f4}}
+@media(prefers-reduced-motion:reduce){}
+
+/* Keep the current pill while crossing into its menu, including the short gap. */
+@media(hover:hover) and (pointer:fine){}
+

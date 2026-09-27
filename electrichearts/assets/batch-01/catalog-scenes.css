@@ -1,0 +1,12 @@
+.nx-catalog .nx-products .nx-scene-card{aspect-ratio:2.8;min-height:155px;background:#141c20}
+.nx-catalog .nx-scene-card .nx-product-art img{object-fit:cover;object-position:70% center;background:#141c20}
+.nx-catalog .nx-scene-card .nx-product-art:after{background:linear-gradient(90deg,rgba(4,9,13,.78),rgba(4,9,13,.25) 47%,transparent 72%),linear-gradient(0deg,rgba(4,9,13,.6),transparent 55%)}
+.nx-catalog .nx-scene-card .nx-product-copy{position:absolute;left:0;bottom:0;margin:0;width:60%;padding:14px;box-sizing:border-box;text-shadow:0 1px 5px #0008}
+.nx-catalog .nx-scene-card .nx-product-copy h3{font-size:13px;line-height:1.3}
+.nx-catalog .nx-scene-card .nx-product-copy p{color:#d4dce0}
+.nx-catalog .nx-scene-card .nx-product-copy>span{font-size:11px;line-height:1.4;display:block;margin-top:4px}
+.nx-catalog .nx-scene-card .nx-product-copy small{display:block;font-size:9px}
+@media(min-width:701px) and (max-width:1399px){.nx-catalog .nx-products{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.nx-catalog .nx-products{grid-template-columns:1fr}.nx-catalog .nx-products .nx-scene-card{aspect-ratio:2.8;min-height:155px}.nx-catalog .nx-scene-card .nx-product-copy{width:56%}}
+@media(prefers-reduced-motion:reduce){.nx-catalog .nx-scene-card img{transition:none;transform:none!important}}
+.nx-catalog .nx-products .nx-scene-card{width:100%;min-width:0;aspect-ratio:auto;height:clamp(155px,13vw,210px)}

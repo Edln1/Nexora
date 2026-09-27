@@ -1,0 +1,56 @@
+.wr-journey-canvas,.wr-journey-opening,.wr-journey-destination,.wr-journey-arrival,.wr-journey-caption,.wr-journey-rail{display:none}
+.wr-has-journey #MainContent{position:relative;z-index:2}
+.wr-has-journey .wr-footer{z-index:2}
+.wr-landscape-portal{position:fixed;inset:0;z-index:1;pointer-events:none;background:#12202a;overflow:hidden}
+.wr-landscape-portal .wr-journey-opening,.wr-landscape-portal .wr-journey-canvas{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;will-change:opacity,transform}
+.wr-landscape-portal .wr-journey-canvas{opacity:0}
+.wr-journey-active{position:relative;height:170svh;background:transparent}
+.wr-journey-active .wr-hero{position:sticky;top:0;height:100svh;min-height:0;max-height:none;overflow:hidden;background:transparent}
+.wr-journey-active .wr-slides{position:absolute;inset:0;will-change:opacity}
+.wr-journey-active .wr-hero-image{object-position:center}
+.wr-journey-active .wr-hero-copy{top:25%;width:49%}
+.wr-journey-active .wr-hero-bottom{bottom:10%}
+.wr-route-categories{position:relative;z-index:3;box-shadow:0 25px 70px #020a1526}
+.wr-route-signature{position:relative;margin-top:65svh;margin-bottom:85svh;box-shadow:0 30px 90px #05122133}
+.wr-coast-scroll{position:relative;height:130svh}
+.wr-coast-scroll .wr-coast-active{position:sticky;top:0;height:100svh;min-height:0;max-height:none}
+.wr-coast-active .wr-story-copy{padding-top:20svh;transform:translateY(calc(var(--coast-progress,0)*-28px));will-change:transform}
+.wr-coast-canvas{position:absolute;inset:0;width:100%;height:100%;z-index:-1;opacity:0;pointer-events:none}
+.wr-route-caption{display:block;position:fixed;z-index:4;left:6%;bottom:19%;width:80%;pointer-events:none;opacity:0;color:#eef4f8}
+.wr-route-caption span{font-size:clamp(25px,3vw,48px);font-weight:300;letter-spacing:-.04em;text-shadow:0 2px 30px #07131f}
+.wr-route-rail{display:flex;align-items:center;gap:18px;position:fixed;z-index:10;left:6%;right:6%;bottom:24px;color:#eaf1f8;font-size:10px;letter-spacing:.14em;text-transform:uppercase;mix-blend-mode:difference}
+.wr-journey-rail>i{height:1px;background:#ffffff40;flex:1;overflow:hidden}
+.wr-journey-progress{height:1px;width:100%;background:white;transform:scaleX(0);transform-origin:left;display:block}
+.wr-journey-rail button{background:none;border:0;color:inherit;font-size:10px;letter-spacing:.08em;padding:10px 0 10px 12px;cursor:pointer}
+@media(max-width:800px){.wr-journey-active{height:155svh}.wr-journey-active .wr-hero-image{object-position:67% center}.wr-journey-active .wr-hero-copy{top:auto;bottom:24%;width:88%}.wr-journey-active .wr-hero-bottom{bottom:12%}.wr-route-signature{margin-top:55svh;margin-bottom:65svh}.wr-coast-scroll{height:125svh}.wr-coast-active .wr-story-copy{padding-top:24svh}.wr-route-rail{gap:10px;font-size:8px}.wr-journey-rail button{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.wr-landscape-portal,.wr-route-rail,.wr-route-caption{display:none!important}.wr-journey-active,.wr-coast-scroll{height:auto}.wr-journey-active .wr-hero{position:relative;height:650px}.wr-route-signature{margin:0}.wr-coast-scroll .wr-coast-active{position:relative;height:480px}.wr-coast-active .wr-story-copy{transform:none}}
+.wr-landscape-portal .wr-route-arrival{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0}
+.wr-coast-scroll .wr-coast-active{background:transparent}
+.wr-coast-active>.wr-banner-image{opacity:var(--coast-arrived,0)}
+.wr-coast-active>.wr-coast-canvas{visibility:hidden}
+.wr-coast-active[style*="--coast-arrived: 1"]>.wr-coast-canvas{visibility:visible}
+.wr-journey-rail button{font-size:10px}
+.wr-coast-active>.wr-banner-image{will-change:transform;transform-origin:62% 52%}
+.wr-coast-active:after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(110deg,transparent 10%,#fff4 45%,transparent 70%);opacity:calc(var(--coast-progress,0)*.4);transform:translateX(calc(var(--coast-progress,0)*20%))}
+.wr-hero>.wr-journey-opening{display:none}
+@media(max-width:800px){.wr-coast-active .wr-story-copy{position:absolute;top:auto;bottom:12%;margin-left:6%;padding:20px;width:88%;background:#edf2f3e8;backdrop-filter:blur(12px)}.wr-coast-active .wr-story-copy h2{font-size:42px}.wr-coast-active .wr-story-copy>p:not(.wr-eyebrow){max-width:95%}.wr-coast-active .wr-story-copy .wr-eyebrow{font-size:8px}}
+.wr-landscape-portal .wr-journey-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.wr-coast-active:after{display:none}
+
+/* The same video surface supplies the opening frame and the whole flight. */
+.wr-journey-active .wr-hero-image{visibility:hidden}
+
+/* Start at the original banner proportions; the scenery expands behind the panels. */
+.wr-journey-active{height:auto}
+.wr-journey-active .wr-hero{position:relative;height:36.2vw;min-height:430px;max-height:780px}
+.wr-journey-active .wr-hero-copy{top:20.8%}
+.wr-journey-active .wr-hero-bottom{bottom:4.8%}
+.wr-landscape-portal{bottom:auto}
+@media(max-width:800px){.wr-journey-active .wr-hero{height:650px;min-height:0;max-height:none}.wr-journey-active .wr-hero-copy{top:auto;bottom:90px}.wr-journey-active .wr-hero-bottom{bottom:22px}}
+.wr-route-signature{margin-top:0}
+.wr-mode-toggle{position:static;display:inline-flex;align-items:center;justify-content:center;width:28px;min-height:36px;padding:2px;border:0;border-radius:0;background:transparent;color:inherit;box-shadow:none;cursor:pointer;opacity:.72;transition:opacity .18s ease}
+@media(max-width:800px){.wr-route-signature{margin-top:0}}
+
+.wr-mode-toggle:hover,.wr-mode-toggle[aria-pressed="true"]{opacity:1}
+.wr-mode-toggle[aria-pressed="true"] svg rect{fill:currentColor;fill-opacity:.2}
+.wr-mode-toggle:focus-visible{outline:2px solid currentColor;outline-offset:3px}

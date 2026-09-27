@@ -1,0 +1,8 @@
+/* Product introduction sits below the header, not behind it. */
+.nx-home-page #MainContent{margin-top:0!important}
+.nx-home-page .ag-home-feature .ag-hero{padding-top:64px;padding-bottom:80px}
+/* Keep the editorial panels generous beneath the new introduction. */
+@media(min-width:768px){.nx-home-page .nh-feature{height:48vw;min-height:600px;max-height:850px}.nx-home-page .nh-feature h2{font-size:clamp(42px,4.3vw,68px)}.nx-home-page .nh-feature-copy{max-width:430px}.nx-home-page .nh-feature-copy>p:not(.nh-kicker){font-size:16px;line-height:1.6}}
+.nx-home-page .nh-reference #hw-home-ref-5__how_steps_viaim{padding-top:72px!important;padding-bottom:72px!important;clear:both}
+.nx-home-page .hw__eyebrow{margin-top:0!important;margin-bottom:20px!important}
+@media(max-width:767px){.nx-home-page .ag-home-feature .ag-hero{padding-top:32px;padding-bottom:44px}.nx-home-page .nh-reference #hw-home-ref-5__how_steps_viaim{padding-top:40px!important;padding-bottom:40px!important}}

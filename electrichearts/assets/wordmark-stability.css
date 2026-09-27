@@ -1,0 +1,6 @@
+/* One wordmark definition across light and dark pages. */
+@font-face{font-family:'Nexora Stable Wordmark';src:url('oxanium-variable.ttf') format('truetype');font-style:normal;font-weight:200 800;font-display:block}
+html body .on-header a.on-logo{font-family:'Nexora Stable Wordmark',sans-serif!important;font-size:23px!important;font-weight:500!important;letter-spacing:.18em!important;line-height:1.1!important;display:flex;align-items:center;width:126px;min-width:126px;height:32px;flex:0 0 126px;white-space:nowrap;transform:none!important;animation:none!important;transition:none!important}
+@media(max-width:760px){html body .on-header a.on-logo{font-size:20px!important;letter-spacing:.14em!important;width:108px;min-width:108px;flex-basis:108px}}
+/* Preserve the original blue-page Inter wordmark. */
+html body#technology-blue-preview .on-header a.on-logo{font-family:'Nexora Navigation',Arial,sans-serif!important;font-weight:400!important;letter-spacing:.16em!important;line-height:1.5!important}
