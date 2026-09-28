@@ -36,3 +36,34 @@ body#everyday-preview .character-bip .ag-hero h1{font-weight:550!important;lette
 body#everyday-preview .np-experience .ag-local .np-product-icon{display:flex;align-items:center;width:40px;height:40px;flex:0 0 40px;padding:0}body#everyday-preview .np-product-icon img{display:block;width:40px;height:40px;object-fit:contain}.np-product-icon:focus-visible{outline:2px solid #647c57;outline-offset:5px;border-radius:10px}
 
 body#everyday-preview .np-experience .np-identity{width:auto!important;height:94px!important;max-width:95%;object-fit:contain;object-position:left center;margin:26px 0 24px}@media(max-width:760px){body#everyday-preview .np-experience .np-identity{height:76px!important}}
+/* Keep the complete story in the same typographic family as its opening. */
+body#everyday-preview .np-experience {
+  --np-heading-font: 'MI Technical', Inter, Arial, sans-serif;
+  --np-heading-weight: 500;
+  --np-heading-tracking: -.055em;
+}
+body#everyday-preview .character-bip { --np-heading-weight: 550; }
+body#everyday-preview .character-echo { --np-heading-weight: 350; --np-heading-tracking: -.045em; }
+body#everyday-preview .character-orbi { --np-heading-weight: 400; --np-heading-tracking: -.035em; }
+body#everyday-preview .character-bop { --np-heading-weight: 650; --np-heading-tracking: -.065em; }
+body#everyday-preview .character-pixo { --np-heading-font: 'MI Oxanium', Arial, sans-serif; --np-heading-tracking: -.035em; }
+body#everyday-preview .np-experience :is(h2,h3) {
+  font-family: var(--np-heading-font)!important;
+  font-weight: 450!important;
+  letter-spacing: -.04em!important;
+  text-wrap: balance;
+}
+body#everyday-preview .np-experience h2 {
+  font-size: clamp(34px,4.25vw,60px);
+  line-height: 1.06;
+  margin: 18px 0 28px;
+}
+body#everyday-preview .np-experience .np-row h2 { max-width: 18ch; }
+body#everyday-preview .np-experience .np-section-intro { max-width: 850px; margin-bottom: 48px; }
+body#everyday-preview .np-experience .np-section-intro h2 { font-size: clamp(38px,4.8vw,68px); }
+body#everyday-preview .np-experience .np-end h2 { max-width: 22ch; margin-inline: auto; }
+@media(max-width:760px) {
+  body#everyday-preview .np-experience h2 { margin: 16px 0 22px; }
+  body#everyday-preview .np-experience .np-section-intro { margin-bottom: 30px; }
+}
+
