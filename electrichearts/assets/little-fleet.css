@@ -23,3 +23,9 @@ body#everyday-preview .wr-hero .wr-hero-bottom{transform:translateY(-1px);paddin
 
 @media(min-width:901px){.fleet-shop{grid-template-columns:repeat(4,minmax(0,1fr))}}
 .fleet-spread>img{aspect-ratio:3/2;object-fit:contain;background:#f7f6f1}
+
+/* Give the two collections equal prominence; keep the story as a quiet third action. */
+body#everyday-preview .fleet-actions .fleet-button{flex:1 1 150px;background:#fff;color:#292b27!important;border-color:#d7d9d1;justify-content:space-between}
+body#everyday-preview .fleet-actions .fleet-button:hover{background:#f5f6f3;border-color:#92998c}
+body#everyday-preview .fleet-actions .fleet-story-link{flex-basis:100%;display:flex;align-items:center;gap:18px;padding:9px 0 0;border:0;background:none;text-align:left;color:#62685e;font:400 12px/1.5 Inter,Arial,sans-serif;cursor:pointer}
+body#everyday-preview .fleet-actions .fleet-story-link:hover{text-decoration:underline;text-underline-offset:4px}
