@@ -18,3 +18,5 @@
 
 /* Preserve the original cast row; reclaim space only above the scene. */
 @media(min-width:761px){.fleet-home-hero figure>img{object-position:center bottom}.fleet-home-hero .fleet-new-members{padding-top:40px;gap:24px}.fleet-home-hero .fleet-new-member{gap:18px}.fleet-home-hero .fleet-new-member img{height:62px}.fleet-home-hero .fleet-new-member span{font-size:12px}.fleet-home-hero .fleet-new-member strong{font-size:12px}}
+
+@media(min-width:761px){.fleet-home-hero{height:var(--fleet-opening-height,calc(100svh - 86px));min-height:580px;display:grid;grid-template-rows:minmax(0,1fr) auto;padding:0!important}.fleet-home-hero figure{min-height:0;overflow:hidden}.fleet-home-hero figure>img{height:100%;width:100%;object-fit:cover;object-position:center bottom}.fleet-home-hero .fleet-new-members{padding-bottom:12px}}
