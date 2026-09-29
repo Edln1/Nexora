@@ -27,3 +27,6 @@
 
 /* Restore the original approved scene framing without viewport-driven cropping. */
 @media(min-width:761px){.fleet-home-hero{height:auto;min-height:0;display:block}.fleet-home-hero figure{overflow:visible}.fleet-home-hero figure>img{height:min(740px,76vw);object-fit:cover;object-position:50% 48%}}
+
+/* User crop reference: preserve the original image render, clip only its top ~100px. */
+@media(min-width:761px){.fleet-home-hero figure{--scene-height:min(740px,76vw);--scene-top-cut:clamp(40px,5.25vw,100px);height:calc(var(--scene-height) - var(--scene-top-cut));overflow:hidden}.fleet-home-hero figure>img{height:var(--scene-height);max-height:none;object-fit:cover;object-position:50% 48%;transform:translateY(calc(-1 * var(--scene-top-cut)))}}
