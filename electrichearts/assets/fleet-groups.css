@@ -30,3 +30,6 @@
 
 /* User crop reference: preserve the original image render, clip only its top ~100px. */
 @media(min-width:761px){.fleet-home-hero figure{--scene-height:min(740px,76vw);--scene-top-cut:clamp(40px,5.25vw,100px);height:calc(var(--scene-height) - var(--scene-top-cut));overflow:hidden}.fleet-home-hero figure>img{height:var(--scene-height);max-height:none;object-fit:cover;object-position:50% 48%;transform:translateY(calc(-1 * var(--scene-top-cut)))}}
+
+/* Quiet glass edges; keyboard focus remains distinct. */
+.fleet-hero-actions a,.fleet-hero-actions a:hover{border-color:transparent;box-shadow:inset 0 1px 0 rgba(255,255,255,.13),0 5px 18px rgba(0,0,0,.10)}.fleet-hero-actions b{box-shadow:none}
