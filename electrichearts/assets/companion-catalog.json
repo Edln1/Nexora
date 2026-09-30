@@ -4,7 +4,7 @@
     "page": "portable-companion",
     "name": "Portable Companion",
     "variant": "Green",
-    "amount": 5999,
+    "amount": null,
     "image": "portable-studio.png",
     "ready": false
   },
@@ -13,7 +13,7 @@
     "page": "pixel-alarm-clock",
     "name": "Pixel Bedside",
     "variant": "White",
-    "amount": 4499,
+    "amount": null,
     "image": "clock-studio.png",
     "ready": false
   },
@@ -22,7 +22,7 @@
     "page": "ai-voice-watch",
     "name": "AI Voice Watch",
     "variant": "Blue",
-    "amount": 4999,
+    "amount": null,
     "image": "watch-studio.png",
     "ready": false
   },
@@ -31,7 +31,7 @@
     "page": "wearable-ai-companion",
     "name": "Wearable AI Companion",
     "variant": "Silver",
-    "amount": 12999,
+    "amount": null,
     "image": "wearable-studio.png",
     "ready": false
   },
@@ -40,7 +40,7 @@
     "page": "robot-dog",
     "name": "Robot Dog",
     "variant": "White",
-    "amount": 7999,
+    "amount": null,
     "image": "dog-studio.png",
     "ready": false
   },
@@ -53,5 +53,50 @@
     "currency": "cad",
     "image": "pixo-white-supplier-n73.jpg",
     "ready": true
+  },
+  {
+    "sku": "eh-bip-green",
+    "page": "green-desktop-speaker",
+    "name": "BIP",
+    "variant": "Green",
+    "amount": null,
+    "image": "green-desktop-speaker-studio-v1.png",
+    "ready": false
+  },
+  {
+    "sku": "eh-echo-white",
+    "page": "talkie-one-speaker",
+    "name": "ECHO",
+    "variant": "Preview",
+    "amount": null,
+    "image": "talkie-one-speaker-studio-v1.png",
+    "ready": false
+  },
+  {
+    "sku": "eh-orbi-white",
+    "page": "astronaut-ai-speaker",
+    "name": "ORBI",
+    "variant": "Preview",
+    "amount": null,
+    "image": "astronaut-ai-speaker-studio-v1.png",
+    "ready": false
+  },
+  {
+    "sku": "eh-bop-white",
+    "page": "rs01-dancing-speaker",
+    "name": "BOP",
+    "variant": "White",
+    "amount": null,
+    "image": "rs01-dancing-speaker-studio-v1.png",
+    "ready": false
+  },
+  {
+    "sku": "eh-bt369",
+    "page": "bt369-speaker",
+    "name": "BT369 Split Speaker",
+    "variant": "Preview",
+    "amount": null,
+    "image": "bt369-speaker-studio-v1.png",
+    "ready": false
   }
 ]
