@@ -43,5 +43,15 @@
     "amount": 7999,
     "image": "dog-studio.png",
     "ready": false
+  },
+  {
+    "sku": "eh-pixo-white",
+    "page": "expression-charging-speaker",
+    "name": "PIXO",
+    "variant": "White",
+    "amount": 6999,
+    "currency": "cad",
+    "image": "pixo-white-supplier-n73.jpg",
+    "ready": false
   }
 ]
