@@ -52,6 +52,6 @@
     "amount": 6999,
     "currency": "cad",
     "image": "pixo-white-supplier-n73.jpg",
-    "ready": false
+    "ready": true
   }
 ]
