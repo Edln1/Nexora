@@ -20,7 +20,7 @@
   }
  }
  window.ehGooglePurchase=p=>{
-  if(!p||!/^nx_[a-f0-9]{32}$/.test(p.eventId)||!Number.isFinite(p.value)||p.value<=0||p.currency!=='USD'||choice==='denied')return;
+  if(!p||!/^nx_[a-f0-9]{32}$/.test(p.eventId)||!Number.isFinite(p.value)||p.value<=0||!['USD','CAD'].includes(p.currency)||choice==='denied')return;
   pending=p;start();
  };
  function show(){
@@ -35,6 +35,7 @@
    if(choice==='granted')start();else{pending=null;if(started)window.gtag('consent','update',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'})}
   });document.body.append(box);
  }
- const button=document.createElement('button');button.textContent='Google Ads cookie choices';button.type='button';button.addEventListener('click',show);document.body.append(button);
+ const button=document.querySelector('[data-eh-google-privacy]')||document.createElement('button');button.textContent='Privacy choices';button.type='button';button.addEventListener('click',show);
+ if(!button.isConnected){button.style.cssText='position:fixed;bottom:12px;left:12px;z-index:1000;padding:6px 10px;border:1px solid #dce3dc;border-radius:999px;background:#fff;color:#59655d;font:11px/1.2 system-ui;cursor:pointer;box-shadow:0 2px 9px #0001';document.body.append(button)}
  if(!choice)show();start();
 })();
