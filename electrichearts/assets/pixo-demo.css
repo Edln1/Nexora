@@ -31,7 +31,7 @@ body#everyday-preview .character-pixo .px-mode[aria-pressed="true"]:after{conten
 body#everyday-preview .character-pixo .px-mode:focus-visible{outline:3px solid #70a5a1;outline-offset:2px}
 body#everyday-preview .character-pixo .px-screen-note{margin:19px 0 0!important;color:#758078!important;font-size:12px!important;line-height:1.5!important}
 body#everyday-preview .character-pixo .px-screen-stage{position:relative;display:flex;flex-direction:column;justify-content:center;align-items:stretch;margin:0;padding:0;background:#fff;min-height:0}
-body#everyday-preview .character-pixo .px-screen-stage img{display:block;width:100%;height:auto;min-height:0;aspect-ratio:1;object-fit:contain}
+body#everyday-preview .character-pixo .px-screen-stage img{display:block;width:100%;height:auto;min-height:0;aspect-ratio:3/2;object-fit:contain}
 body#everyday-preview .character-pixo .px-screen-stage figcaption{position:static;padding:17px 22px;background:#fff;color:#657369;border-top:1px solid #e3e8e1;font:500 10px/1.35 'MI Technical',Inter,Arial,sans-serif;letter-spacing:.11em}
 body#everyday-preview .character-pixo .px-hero-thumbs{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;padding:12px 0 15px}
 body#everyday-preview .character-pixo .px-hero-thumb{position:relative;display:block;padding:0;border:1px solid #e4e9e2;background:#fff;cursor:pointer;aspect-ratio:1;overflow:hidden}
@@ -43,7 +43,7 @@ body#everyday-preview .character-pixo .px-day{padding:clamp(72px,8vw,130px) clam
 body#everyday-preview .character-pixo .px-day h2{max-width:950px;margin:20px 0 46px;font-size:clamp(42px,5vw,82px);line-height:1.04}
 body#everyday-preview .character-pixo .px-day-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(28px,4vw,72px)}
 body#everyday-preview .character-pixo .px-day-grid article{border-top:1px solid #dce3dc;padding-top:18px}
-body#everyday-preview .character-pixo .px-day-grid article img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain;background:#f7f7f5}
+body#everyday-preview .character-pixo .px-day-grid article img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain;background:#f7f7f5}
 body#everyday-preview .character-pixo .px-day-grid article>div{padding:25px 0 0}
 body#everyday-preview .character-pixo .px-day-grid article span{display:block;margin-bottom:18px;color:#809083;font:600 11px Inter,Arial,sans-serif}
 body#everyday-preview .character-pixo .px-day-grid h3{margin:0 0 14px;font-size:clamp(26px,2.2vw,38px);line-height:1.1}
@@ -70,3 +70,22 @@ body#everyday-preview .character-pixo .px-story[id],body#everyday-preview .chara
 @media(max-width:950px){body#everyday-preview .character-pixo .px-basics,body#everyday-preview .character-pixo .px-screen-layout,body#everyday-preview .character-pixo .px-details{grid-template-columns:1fr}body#everyday-preview .character-pixo .px-product-shot{min-height:450px;border-right:0;border-bottom:1px solid #e5e9e4}body#everyday-preview .character-pixo .px-screen-head{align-items:start;flex-direction:column}body#everyday-preview .character-pixo .px-screen-controls{min-height:350px}body#everyday-preview .character-pixo .px-day-grid{grid-template-columns:1fr;gap:36px}body#everyday-preview .character-pixo .px-day-grid article{border-bottom:1px solid #dce3dc;padding-bottom:24px}body#everyday-preview .character-pixo .px-details{gap:45px}body#everyday-preview .character-pixo .px-control-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){body#everyday-preview .character-pixo .px-intro{padding-bottom:35px}body#everyday-preview .character-pixo .px-product-shot{min-height:330px}body#everyday-preview .character-pixo .px-product-shot img{width:94%}body#everyday-preview .character-pixo .px-screen-controls{padding:32px 24px}body#everyday-preview .character-pixo .px-details dl>div{grid-template-columns:1fr;gap:6px}body#everyday-preview .character-pixo .px-hero-thumbs{gap:4px}body#everyday-preview .character-pixo .px-story[id],body#everyday-preview .character-pixo .px-details[id],body#everyday-preview .character-pixo .px-faq[id]{scroll-margin-top:125px!important}}
 @media(prefers-reduced-motion:reduce){body#everyday-preview .character-pixo .px-mode{transition:none}}
+/* Detail photography follows the real hardware, with the explanations beside it. */
+body#everyday-preview .character-pixo .px-key-head{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);gap:0 48px;align-items:end;margin-bottom:40px}
+body#everyday-preview .character-pixo .px-key-head>.ag-kicker{grid-column:1/-1;margin:0}
+body#everyday-preview .character-pixo .px-key-head h2{margin:18px 0 0;font-size:clamp(42px,4.6vw,74px);line-height:1.04}
+body#everyday-preview .character-pixo .px-key-head>p:last-child{max-width:360px;margin:0;color:#647068;font-size:16px;line-height:1.6}
+body#everyday-preview .character-pixo .px-key-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:clamp(32px,4vw,68px);align-items:center}
+body#everyday-preview .character-pixo .px-key-photo{margin:0}
+body#everyday-preview .character-pixo .px-key-photo img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}
+body#everyday-preview .character-pixo .px-key-photo figcaption{padding:18px 0;color:#78837b;border-top:1px solid #e1e7df;font:500 10px/1.4 Inter,Arial,sans-serif;letter-spacing:.13em}
+body#everyday-preview .character-pixo .px-key-layout .px-control-grid{grid-template-columns:repeat(2,minmax(0,1fr));padding:0;gap:35px 30px;border:0}
+body#everyday-preview .character-pixo .px-key-label{display:block;color:#748079;font:500 10px/1.5 Inter,Arial,sans-serif;letter-spacing:.09em;min-height:16px}
+body#everyday-preview .character-pixo .px-key-layout .px-control-grid h3{margin:12px 0 10px;font-size:clamp(21px,1.8vw,29px)}
+body#everyday-preview .character-pixo .px-detail-studies{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(30px,4vw,72px);padding:0 clamp(24px,5vw,80px) clamp(65px,7vw,110px)}
+body#everyday-preview .character-pixo .px-detail-studies article{border-top:1px solid #dce3dc}
+body#everyday-preview .character-pixo .px-detail-studies img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}
+body#everyday-preview .character-pixo .px-detail-studies article>div{padding:24px 0 0}
+body#everyday-preview .character-pixo .px-detail-studies h3{margin:16px 0 14px;font-size:clamp(28px,2.6vw,42px);line-height:1.08}
+body#everyday-preview .character-pixo .px-detail-studies article>div>p:last-child{max-width:44ch;margin:0;color:#647068;font-size:15px;line-height:1.65}
+@media(max-width:950px){body#everyday-preview .character-pixo .px-key-head,body#everyday-preview .character-pixo .px-key-layout{grid-template-columns:1fr;gap:25px}body#everyday-preview .character-pixo .px-key-head>p:last-child{max-width:520px}body#everyday-preview .character-pixo .px-key-layout .px-control-grid{gap:28px 24px}body#everyday-preview .character-pixo .px-detail-studies{grid-template-columns:1fr;gap:46px}}
