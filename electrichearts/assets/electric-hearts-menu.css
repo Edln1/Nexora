@@ -8,3 +8,12 @@ body#everyday-preview .on-header .eh-menu-family{grid-template-columns:repeat(5,
 
 .on-header .eh-menu-collections{grid-template-columns:repeat(2,minmax(0,1fr))!important}.on-header .eh-menu-collections>.on-mega-card>.on-mega-card-image{aspect-ratio:1.5;display:flex;align-items:center}.on-header .eh-menu-collections>.on-mega-card>.on-mega-card-image>img{height:100%;aspect-ratio:auto}.on-header .eh-menu-collections .eh-menu-wearable-art>img{width:33.333%;height:100%;object-fit:contain;background:#fff}.on-header .eh-menu-collections .eh-menu-wearable-art{background:#fff}@media(max-width:600px){.on-header .eh-menu-collections{grid-template-columns:1fr!important}.on-header .eh-menu-collections>.on-mega-card>.on-mega-card-image{aspect-ratio:1.8}.on-header .eh-menu-collections>.on-mega-card>.on-mega-card-image>img{max-height:none}}
 .on-header .eh-menu-collections .eh-menu-wearable-art>img{flex:1 1 0;min-width:0;width:33.333%!important;max-width:33.333%;object-fit:contain}
+
+/* Character introductions share the original animated mega-menu framework. */
+.on-header .eh-menu-family .on-mega-card-image{aspect-ratio:1;background:#f7f8f5;display:flex;align-items:center;justify-content:center}
+.on-header .eh-menu-family .on-mega-card-image img{width:76%;height:76%;object-fit:contain;aspect-ratio:auto}
+.on-header .eh-menu-family .on-mega-card p{line-height:1.65}
+.on-header .eh-family-preview{display:block;margin-top:7px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;opacity:.65}
+body#everyday-preview .on-header .eh-family-along{grid-template-columns:repeat(3,minmax(0,1fr));max-width:850px}
+.on-header .eh-family-along .on-mega-card-image img{width:85%;height:85%}
+@media(max-width:1100px){body#everyday-preview .on-header .eh-family-along{grid-template-columns:repeat(2,minmax(0,1fr));max-width:none}.on-header .eh-menu-family .on-mega-card-image img{max-height:none}}
