@@ -69,10 +69,12 @@
     "sku": "eh-echo-white",
     "page": "talkie-one-speaker",
     "name": "ECHO",
-    "variant": "Preview",
-    "amount": null,
-    "image": "talkie-one-speaker-studio-v1.png",
-    "ready": false
+    "variant": "Beige · Rose trim · A9",
+    "amount": 8999,
+    "image": "echo-a9-beige-clean-20261003.png",
+    "ready": true,
+    "currency": "cad",
+    "delivery": "15–45 days"
   },
   {
     "sku": "eh-orbi-white",
