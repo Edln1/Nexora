@@ -78,10 +78,12 @@
     "sku": "eh-orbi-white",
     "page": "astronaut-ai-speaker",
     "name": "ORBI",
-    "variant": "Preview",
-    "amount": null,
-    "image": "astronaut-ai-speaker-studio-v1.png",
-    "ready": false
+    "variant": "White · Blue trim · M20 Bluetooth",
+    "amount": 9999,
+    "image": "orbi-m20-supplier-20261003.jpg",
+    "ready": true,
+    "currency": "cad",
+    "delivery": "15–40 days"
   },
   {
     "sku": "eh-bop-white",
