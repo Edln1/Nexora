@@ -52,7 +52,9 @@
     "amount": 6999,
     "currency": "cad",
     "image": "pixo-white-supplier-n73.jpg",
-    "ready": true
+    "ready": true,
+    "delivery": "10–30 days",
+    "launch": true
   },
   {
     "sku": "eh-bip-green",
@@ -85,18 +87,22 @@
     "sku": "eh-bop-white",
     "page": "rs01-dancing-speaker",
     "name": "BOP",
-    "variant": "White",
-    "amount": null,
-    "image": "rs01-dancing-speaker-studio-v1.png",
-    "ready": false
+    "variant": "Grey",
+    "amount": 11999,
+    "image": "bop-supplier-grey-20261003.jpg",
+    "ready": true,
+    "delivery": "15–40 days",
+    "currency": "cad"
   },
   {
     "sku": "eh-bt369",
     "page": "bt369-speaker",
     "name": "BT369 Split Speaker",
-    "variant": "Preview",
-    "amount": null,
+    "variant": "Black · Two speakers",
+    "amount": 7999,
     "image": "bt369-speaker-studio-v1.png",
-    "ready": false
+    "ready": true,
+    "delivery": "15–40 days",
+    "currency": "cad"
   }
 ]

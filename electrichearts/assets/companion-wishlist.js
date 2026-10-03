@@ -18,7 +18,7 @@
     const card=document.createElement('article');card.className='wish-card';
     const image=document.createElement('img');image.src='assets/'+product.image;image.alt='';image.loading='lazy';
     const copy=document.createElement('div');const title=document.createElement('h2');title.textContent=product.name;
-    const detail=document.createElement('p');detail.textContent=product.ready?'Available to order':'Coming soon · Price to be confirmed';
+    const detail=document.createElement('p');detail.textContent=product.ready?'Available to order':'Collection preview · Ordering not open';
     const link=document.createElement('a');link.href=product.page+'.html';link.textContent='Meet '+product.name+' →';
     const remove=document.createElement('button');remove.type='button';remove.textContent='Remove';remove.setAttribute('aria-label','Remove '+product.name+' from wishlist');remove.addEventListener('click',()=>{save(read().filter(s=>s!==product.sku));render()});
     copy.append(title,detail,link);card.append(image,copy,remove);list.append(card)
