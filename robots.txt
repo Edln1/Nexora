@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /payment-backend/
+Disallow: /electrichearts/companion-checkout.html
+Disallow: /electrichearts/wishlist.html
+Disallow: /checkout.html
+
+Sitemap: https://nexora.synapses.cloud/sitemap.xml
