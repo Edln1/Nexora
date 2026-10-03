@@ -13,3 +13,5 @@
 .family-shop a:focus-visible,.family-controls button:focus-visible,.family-controls input:focus-visible{outline:2px solid #3b7062;outline-offset:4px}
 @media(max-width:850px){.family-shop-grid{grid-template-columns:1fr;gap:32px}.family-shop-grid article{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center;border-bottom:1px solid #e3e8e1;padding-bottom:32px}.family-shop-copy p:not(.ag-kicker){min-height:0}.family-shop-discover{flex-direction:column;align-items:flex-start}.family-shop-intro{padding-top:54px}}
 @media(max-width:520px){.family-shop-grid article{grid-template-columns:1fr}.family-shop-image img{max-height:330px}.family-controls{flex-wrap:wrap}.family-purchase{align-items:flex-start}.family-shop-intro h1{font-size:44px}.family-shop-copy{padding-top:0}.family-shop-identity{width:200px}}
+
+@media(min-width:1200px){.family-shop-grid:has(>article:nth-child(4)){grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}.family-shop-grid:has(>article:nth-child(4)) .family-shop-identity{width:200px}}

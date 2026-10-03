@@ -2,7 +2,7 @@
  const key='electric-hearts-basket-v1',wishKey='electric-hearts-wishlist-v1',api='https://synbot-whatsapp-2.onrender.com/nexora';
  let products=[],config=null,items=[];
  const money=(n,currency='usd')=>'$'+(n/100).toFixed(2)+' '+currency.toUpperCase();
- try{products=await fetch('assets/companion-catalog.json').then(r=>r.json())}catch{return}
+ try{products=await fetch('assets/companion-catalog.json',{cache:'no-store'}).then(r=>r.json())}catch{return}
  try{items=JSON.parse(localStorage.getItem(key)||'[]');if(!Array.isArray(items))items=[]}catch{}
  const seen=new Set(),moved=[];items=items.filter(i=>{if(!i||!Number.isInteger(i.qty)||i.qty<1||i.qty>5||seen.has(i.sku))return false;const p=products.find(p=>p.sku===i.sku);if(!p)return false;seen.add(i.sku);if(!p.ready){moved.push(i.sku);return false}return true});
  if(moved.length){try{const saved=JSON.parse(localStorage.getItem(wishKey)||'[]');localStorage.setItem(wishKey,JSON.stringify([...new Set([...(Array.isArray(saved)?saved:[]),...moved])]))}catch{}}
