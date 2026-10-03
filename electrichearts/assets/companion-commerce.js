@@ -1,8 +1,10 @@
 (async()=>{
  const key='electric-hearts-basket-v1',wishKey='electric-hearts-wishlist-v1',api='https://synbot-whatsapp-2.onrender.com/nexora';
  let products=[],config=null,items=[];
+ const addButtons=[...document.querySelectorAll('[data-eh-add]')];
+ addButtons.forEach(b=>{b.disabled=true;b.setAttribute('aria-busy','true')});
  const money=(n,currency='usd')=>'$'+(n/100).toFixed(2)+' '+currency.toUpperCase();
- try{products=await fetch('assets/companion-catalog.json',{cache:'no-store'}).then(r=>r.json())}catch{return}
+ try{products=await fetch('assets/companion-catalog.json',{cache:'no-store'}).then(r=>r.json())}catch{addButtons.forEach(b=>{const status=b.closest('[data-companion]')?.querySelector('[data-eh-status]');if(status)status.textContent='Availability could not be loaded. Please refresh this page to try again.';b.removeAttribute('aria-busy')});return}
  try{items=JSON.parse(localStorage.getItem(key)||'[]');if(!Array.isArray(items))items=[]}catch{}
  const seen=new Set(),moved=[];items=items.filter(i=>{if(!i||!Number.isInteger(i.qty)||i.qty<1||i.qty>5||seen.has(i.sku))return false;const p=products.find(p=>p.sku===i.sku);if(!p)return false;seen.add(i.sku);if(!p.ready){moved.push(i.sku);return false}return true});
  if(moved.length){try{const saved=JSON.parse(localStorage.getItem(wishKey)||'[]');localStorage.setItem(wishKey,JSON.stringify([...new Set([...(Array.isArray(saved)?saved:[]),...moved])]))}catch{}}
@@ -13,6 +15,7 @@
  basket.addEventListener('click',e=>{if(e.target.closest('[data-close]'))basket.close();const r=e.target.closest('[data-remove]');if(r){items=items.filter(i=>i.sku!==r.dataset.remove);save();render()}});
  basket.addEventListener('change',e=>{if(!e.target.matches('[data-qty]'))return;const qty=Number(e.target.value);if(Number.isInteger(qty)&&qty>=1&&qty<=5){items.find(i=>i.sku===e.target.dataset.qty).qty=qty;save()}render()});save();
  if(location.pathname.endsWith('/basket.html')){render();basket.showModal()}
+ addButtons.forEach(b=>{b.disabled=!products.find(p=>p.sku===b.closest('[data-companion]')?.dataset.companion)?.ready;b.removeAttribute('aria-busy')});
  const status=document.getElementById('eh-checkout-status');if(!status)return;
  async function request(path,options){const r=await fetch(api+path,options),d=await r.json();if(!r.ok)throw Error(d.error||'Checkout is temporarily unavailable.');return d}
  try{
