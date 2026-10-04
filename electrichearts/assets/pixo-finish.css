@@ -12,6 +12,6 @@
 html body#everyday-preview :is(main.np-experience.ag,main.sc-collection,main.wc-detail,main.hb-page,main.family-shop,.fleet,.fleet-home-hero,.fleet-banner,.fleet-everyday,.fleet-world-intro,.wc-collection-row,.et-teaser) :is(h1,h2,h3){font-family:'Inter Variable',Arial,sans-serif!important;font-weight:500!important;letter-spacing:-.065em!important;line-height:1.04!important;font-kerning:normal;font-synthesis:none;font-feature-settings:"calt","liga";font-optical-sizing:auto}
 html body#everyday-preview :is(main.np-experience.ag,main.sc-collection,main.wc-detail,main.hb-page,main.family-shop,.fleet,.fleet-home-hero,.fleet-banner,.fleet-everyday,.fleet-world-intro,.wc-collection-row,.et-teaser) :is(h1,h2,h3) em{font-family:inherit;font-weight:inherit;letter-spacing:inherit}
 
-/* Match the selected speaker headline scale in the fleet introduction. */
-html body#everyday-preview main #little-fleet #fleet-heading{font-size:clamp(48px,5.4vw,78px)!important;max-width:none!important}
+/* Fit the approved speaker type to the fleet’s narrower editorial column. */
+html body#everyday-preview main #little-fleet #fleet-heading{font-size:clamp(48px,4.9vw,68px)!important;letter-spacing:-.045em!important;line-height:1.08!important;max-width:none!important}
 @media(max-width:760px){html body#everyday-preview main #little-fleet #fleet-heading{font-size:50px!important}}
