@@ -6,3 +6,8 @@
 .eh-footer nav button[data-eh-google-privacy]{background:none;border:0;padding:0;color:#46544a;font:14px Arial,sans-serif;cursor:pointer;text-align:left}.eh-footer nav button[data-eh-google-privacy]:hover{text-decoration:underline}
 #eh-google-consent strong{display:block;font-size:15px;letter-spacing:-.02em}#eh-google-consent p{margin:8px 0 16px;color:#58645c;font-size:13px;line-height:1.5}#eh-google-consent a{color:#1d3a2a;text-underline-offset:3px}#eh-google-consent button{border:1px solid #cbd7ca;border-radius:999px;background:#fff;color:#243128;padding:9px 13px;font:12px Arial,sans-serif;cursor:pointer}#eh-google-consent button[data-choice="granted"]{background:#1f2c24;border-color:#1f2c24;color:#fff}
 .character-pixo > .ag-shell:last-child{padding-bottom:0}
+
+/* Approved speaker-collection display typography: the actual Inter face,
+   weight and spacing of “Little speakers. Big personalities.” */
+html body#everyday-preview :is(main.np-experience.ag,main.sc-collection,main.wc-detail,main.hb-page,main.family-shop,.fleet,.fleet-home-hero,.fleet-banner,.fleet-everyday,.fleet-world-intro,.wc-collection-row,.et-teaser) :is(h1,h2,h3){font-family:'Inter Variable',Arial,sans-serif!important;font-weight:500!important;letter-spacing:-.065em!important;line-height:1.04!important;font-kerning:normal;font-synthesis:none}
+html body#everyday-preview :is(main.np-experience.ag,main.sc-collection,main.wc-detail,main.hb-page,main.family-shop,.fleet,.fleet-home-hero,.fleet-banner,.fleet-everyday,.fleet-world-intro,.wc-collection-row,.et-teaser) :is(h1,h2,h3) em{font-family:inherit;font-weight:inherit;letter-spacing:inherit}
