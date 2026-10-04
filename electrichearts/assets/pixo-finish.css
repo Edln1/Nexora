@@ -24,6 +24,13 @@ html body#everyday-preview main #little-fleet .fleet-pagecopy h3,
 html body#everyday-preview main #companions-everyday .fe-copy h3{letter-spacing:-.04em!important;line-height:1.14!important}
 html body#everyday-preview main #fleet-wearables .wc-card h3,
 html body#everyday-preview main #companions-everyday .fe-principles h3{letter-spacing:-.025em!important;line-height:1.25!important}
-html body#everyday-preview main #fleet-sound .fleet-hero-eyebrow{color:#fff!important;font-size:clamp(10px,.65vw,12px)!important;font-weight:600!important;letter-spacing:.13em!important;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+html body#everyday-preview main #fleet-sound .fleet-hero-eyebrow{color:#fff!important;font-size:clamp(9px,.55vw,10px)!important;font-weight:600!important;letter-spacing:.13em!important;text-shadow:0 1px 3px rgba(0,0,0,.5)}
 
 @media(max-width:760px){html body#everyday-preview main #fleet-sound .fleet-hero-eyebrow{color:#384039!important;text-shadow:none}}
+
+/* Optical refinement for white type over artwork: lighter strokes and more
+   open spacing retain the approved face without a heavy reversed-out effect. */
+html body#everyday-preview main #fleet-sound #fleet-sound-heading{font-weight:450!important;letter-spacing:-.035em!important;line-height:1.1!important}
+html body#everyday-preview main #fleet-rescue h2,
+html body#everyday-preview main #fleet-world .fleet-banner h2{font-weight:450!important;font-size:clamp(35px,3.9vw,56px)!important;letter-spacing:-.035em!important;line-height:1.1!important}
+html body#everyday-preview main #fleet-world .fleet-world-intro h2{font-size:clamp(34px,3.7vw,52px)!important;letter-spacing:-.045em!important;line-height:1.08!important}
