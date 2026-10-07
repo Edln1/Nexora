@@ -1,19 +1,20 @@
 /* Google Ads measurement loads only after a separate Google-specific consent. */
 (()=>{
+ if(window.ehGooglePurchase)return;
  const key='eh-google-ads-consent-v1',destination='AW-18478122075/CgyFCO7W6IcdENuIh-tE';
  let choice=null,started=false,pending=null;
  try{choice=localStorage.getItem(key)}catch{}
  if(navigator.globalPrivacyControl)choice='denied';
  function start(){
   if(choice!=='granted'||navigator.globalPrivacyControl||new URLSearchParams(location.search).has('session_id'))return;
+  window.dataLayer=window.dataLayer||[];
+  window.gtag=window.gtag||function(){window.dataLayer.push(arguments)};
+  window.gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});
   if(!started){
-   window.dataLayer=window.dataLayer||[];
-   window.gtag=window.gtag||function(){window.dataLayer.push(arguments)};
    window.gtag('js',new Date());
    window.gtag('config','AW-18478122075');
    const script=document.createElement('script');script.async=true;script.src='https://www.googletagmanager.com/gtag/js?id=AW-18478122075';document.head.append(script);started=true;
   }
-  window.gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'});
   if(pending){
    const p=pending;pending=null;
    window.gtag('event','conversion',{send_to:destination,value:p.value,currency:p.currency,transaction_id:p.eventId});
@@ -37,5 +38,7 @@
  }
  const button=document.querySelector('[data-eh-google-privacy]')||document.createElement('button');button.textContent='Privacy choices';button.type='button';button.addEventListener('click',show);
  if(!button.isConnected){button.style.cssText='position:fixed;bottom:12px;left:12px;z-index:1000;padding:6px 10px;border:1px solid #dce3dc;border-radius:999px;background:#fff;color:#59655d;font:11px/1.2 system-ui;cursor:pointer;box-shadow:0 2px 9px #0001';document.body.append(button)}
- if(!choice)show();start();
+ const landing=new URLSearchParams(location.search);
+ const needsChoice=location.pathname.endsWith('/companion-checkout.html')||['gclid','gbraid','wbraid'].some(key=>landing.has(key));
+ if(!choice&&needsChoice)show();start();
 })();
