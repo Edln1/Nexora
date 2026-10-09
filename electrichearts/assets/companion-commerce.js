@@ -19,7 +19,19 @@
  const status=document.getElementById('eh-checkout-status');if(!status)return;
  async function request(path,options){const r=await fetch(api+path,options),d=await r.json();if(!r.ok)throw Error(d.error||'Checkout is temporarily unavailable.');return d}
  try{
- const session=new URLSearchParams(location.search).get('session_id');if(session){history.replaceState(null,'',location.pathname);const d=await request('/checkout/status?session_id='+encodeURIComponent(session));status.textContent=d.paymentStatus==='paid'?'Thank you. Your payment is confirmed.':'Your payment is not confirmed. Please check again or contact us.';if(d.purchase)window.ehGooglePurchase?.(d.purchase);if(d.paymentStatus==='paid'){localStorage.removeItem(key)}return}
+ const session=new URLSearchParams(location.search).get('session_id');
+ if(session){
+  try{
+   const d=await request('/checkout/status?session_id='+encodeURIComponent(session));
+   if(d.paymentStatus==='paid'){
+    status.textContent=d.testMode?'Test payment confirmed — no real charge.':'Thank you. Your payment is confirmed.';
+    try{if(d.purchase&&!d.testMode)window.ehGooglePurchase?.(d.purchase)}catch{}
+    try{localStorage.removeItem(key)}catch{}
+   }else status.textContent='Your payment is not confirmed. Please check again or contact us.';
+   try{history.replaceState(null,'',location.pathname)}catch{}
+  }catch{status.textContent='We could not confirm your payment status. If you already paid, do not place another order; contact us so we can check it.'}
+  return;
+ }
  if(!items.length){status.textContent='Your basket is empty. Choose a companion first.';return}
  document.getElementById('eh-summary').textContent=items.map(i=>{const p=products.find(p=>p.sku===i.sku);return `${i.qty} × ${p.name} · ${money(i.qty*p.amount,p.currency)}`}).join(' / ');
  config=await request('/companions/config');
