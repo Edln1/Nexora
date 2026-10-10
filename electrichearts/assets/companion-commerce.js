@@ -12,12 +12,16 @@
  if(session&&status){
   try{
    const d=await request('/checkout/status?session_id='+encodeURIComponent(session));
+   const purchase=d.paymentStatus==='paid'&&!d.testMode?d.purchase:null;
    if(d.paymentStatus==='paid'){
     status.textContent=d.testMode?'Test payment confirmed — no real charge.':'Thank you. Your payment is confirmed.';
-    try{if(d.purchase&&!d.testMode)window.ehGooglePurchase?.(d.purchase)}catch{}
     try{localStorage.removeItem(d.market==='US'?usKey:caKey)}catch{}
    }else status.textContent='Your payment is not confirmed. Please check again or contact us.';
-   try{history.replaceState(null,'',location.pathname+(d.market==='US'?'?market=US':''))}catch{}
+   try{
+    history.replaceState(null,'',location.pathname+(d.market==='US'?'?market=US':''));
+    // Google measurement never receives a URL containing the Stripe session token.
+    if(purchase)window.ehGooglePurchase?.(purchase);
+   }catch{}
   }catch{status.textContent='We could not confirm your payment status. If you already paid, do not place another order; contact us so we can check it.'}
   return;
  }
