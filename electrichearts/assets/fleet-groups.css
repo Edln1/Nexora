@@ -40,3 +40,8 @@ body#everyday-preview .fleet-home-hero,body#everyday-preview .fleet-home-hero h1
 
 /* Match the user's approved desktop type scale, independent of font arrival. */
 @media(min-width:1100px){body#everyday-preview .fleet-home-hero h1{font-size:44px;line-height:1.02;font-weight:450}.fleet-hero-description{font-size:12px;line-height:1.65}.fleet-hero-eyebrow{font-size:10px}.fleet-hero-actions a>span{font-size:14px}.fleet-hero-actions a small{font-size:8px}.fleet-home-hero .fleet-new-member span,.fleet-home-hero .fleet-new-member strong{font-size:12px}}
+
+.fleet-home-hero .fleet-us-offer{margin:0 6%;padding:18px 0 0;font-size:12px;line-height:1.5;color:#646c60}
+.fleet-home-hero .fleet-us-offer a{color:#303831;text-decoration:underline;text-underline-offset:3px}
+.fleet-home-hero .fleet-us-offer a:focus-visible{outline:2px solid #69745e;outline-offset:3px}
+@media(max-width:760px){.fleet-home-hero .fleet-us-offer{padding-top:20px;font-size:12px}}
